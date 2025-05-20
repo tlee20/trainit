@@ -1,7 +1,7 @@
 # Static configuration variables
 
 # PLEASE USE A NEW NAME FOR EVERY NEW EXPERIMENT!
-NAME="v5_10seg_peak2e-3_eps0.03"                                   # CHANGE THIS (every experiment)
+NAME="seg20_eps0.24"                                   # CHANGE THIS (every experiment)
 DESC="
 Experiment description:
 
@@ -24,7 +24,7 @@ NAME+="_${uuid6}"
 # =========================================================
 
 # root working directory path
-BASE_PATH="/projectnb/aclab/qinziz/trainit"                 # CHANGE THIS upon setup (once)
+BASE_PATH="/projectnb/aclab/alee12/trainit3/trainit_project/trainit"                 # CHANGE THIS upon setup (once)
 DATE=$(date +"%Y-%m-%d")
 
 # total cpu hour of the master script
@@ -104,7 +104,7 @@ SEGMENTS[-1]=$TOTAL_STEPS           # set last segment to TOTAL_STEPS
 #       please make sure it always starts with (0 200 ...)
 #       below is an example of 3 segments (dividing the rest 1800 steps into 3 segs)
 # SEGMENTS=(0 200 800 1400 $TOTAL_STEPS)
-SEGMENTS=(0 200 400 600 800 1000 1200 1400 1600 1800 $TOTAL_STEPS)                      # CHANGE THIS
+SEGMENTS=(0 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 $TOTAL_STEPS)                      # CHANGE THIS
 #       manually adapt NUM_SEGMENTS
 NUM_SEGMENTS=$((${#SEGMENTS[@]} - 1))
 
@@ -131,7 +131,7 @@ NESTEROV=False
 # >>> Logging configs
 
 # wandb project name
-PROJECT="greedy_lr_schedule"                                # CHANGE THIS if needed
+PROJECT="test3"                                # CHANGE THIS if needed
 
 # log additional metrics to wandb
 LOG_CALLBACK_DATA=False      # we don't need to log other metrics in this task

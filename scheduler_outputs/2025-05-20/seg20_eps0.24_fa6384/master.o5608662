@@ -1,0 +1,19 @@
+2025-05-20 18:53:04 - [Master]: Saved experiment snapshot to /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/snapshot.txt.
+Running experiment seg20_eps0.24_fa6384.
+
+Experiment description:
+
+- version 0.0.5;
+- 2k steps, 200 steps warmup and 9 decay steps, 
+  for a total of 10 segs (0 200 400 ... 2000);
+- peak lr = 2e-3;
+- linear grid with 10 lower grids and upper = [1, 1.25, 1.5, 2];
+- eps-greedy with absolute epsilon = 0.03;
+
+2025-05-20 18:53:04 - [Update]: fetching initial lr1 and lr2_candidates...
+2025-05-20 18:53:19 - [Update]: Initialize lr1=0.0, lr2_candidates=(0.002) for segment 1.
+====================================================================================================
+2025-05-20 18:53:19 - [Master]: Training segment 1 from iteration 0 to 200...
+2025-05-20 18:53:19 - [Listener]: Waiting for 1 ACKs...
+Your job 5608724 ("seg1_lr2_2.00e-03") has been submitted
+2025-05-20 18:53:19 - Launcher: Submitted job with lr1=0.0 lr2=0.002.
