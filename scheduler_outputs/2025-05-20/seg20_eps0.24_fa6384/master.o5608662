@@ -17,3 +17,1182 @@ Experiment description:
 2025-05-20 18:53:19 - [Listener]: Waiting for 1 ACKs...
 Your job 5608724 ("seg1_lr2_2.00e-03") has been submitted
 2025-05-20 18:53:19 - Launcher: Submitted job with lr1=0.0 lr2=0.002.
+2025-05-20 19:25:20 - [Listener]: Received ACK from job ID: 5608724, seg 1, lr1=0.0, lr2=0.002
+    Job 5608724 completed, received 1/1 ACKs.
+2025-05-20 19:25:20 - [Listener]: 1 / 1 ACKs received from jobs (5608724).
+2025-05-20 19:25:20 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 19:25:35 - [Update]: lr1=0.002, lr2_candidates=(0.0 0.001 0.0013333333333333333 0.0015 0.0016 0.0016666666666666668 0.0017142857142857142 0.00175 0.0017777777777777776 0.0018000000000000002 0.002 0.0025 0.003 0.004) for segment 2.
+2025-05-20 19:25:35 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/0-200/lr2:2.00e-03
+2025-05-20 19:25:35 - [Master]: Segment 1/19 completed.
+
+====================================================================================================
+2025-05-20 19:25:35 - [Master]: Training segment 2 from iteration 200 to 300...
+2025-05-20 19:25:35 - [Listener]: Waiting for 14 ACKs...
+Your job 5609268 ("seg2_lr2_0.00e+00") has been submitted
+2025-05-20 19:25:35 - Launcher: Submitted job with lr1=0.002 lr2=0.0.
+Your job 5609269 ("seg2_lr2_1.00e-03") has been submitted
+2025-05-20 19:25:35 - Launcher: Submitted job with lr1=0.002 lr2=0.001.
+Your job 5609270 ("seg2_lr2_1.33e-03") has been submitted
+2025-05-20 19:25:35 - Launcher: Submitted job with lr1=0.002 lr2=0.0013333333333333333.
+Your job 5609271 ("seg2_lr2_1.50e-03") has been submitted
+2025-05-20 19:25:35 - Launcher: Submitted job with lr1=0.002 lr2=0.0015.
+Your job 5609272 ("seg2_lr2_1.60e-03") has been submitted
+2025-05-20 19:25:36 - Launcher: Submitted job with lr1=0.002 lr2=0.0016.
+Your job 5609273 ("seg2_lr2_1.67e-03") has been submitted
+2025-05-20 19:25:36 - Launcher: Submitted job with lr1=0.002 lr2=0.0016666666666666668.
+Your job 5609274 ("seg2_lr2_1.71e-03") has been submitted
+2025-05-20 19:25:36 - Launcher: Submitted job with lr1=0.002 lr2=0.0017142857142857142.
+Your job 5609275 ("seg2_lr2_1.75e-03") has been submitted
+2025-05-20 19:25:36 - Launcher: Submitted job with lr1=0.002 lr2=0.00175.
+Your job 5609276 ("seg2_lr2_1.78e-03") has been submitted
+2025-05-20 19:25:36 - Launcher: Submitted job with lr1=0.002 lr2=0.0017777777777777776.
+Your job 5609277 ("seg2_lr2_1.80e-03") has been submitted
+2025-05-20 19:25:36 - Launcher: Submitted job with lr1=0.002 lr2=0.0018000000000000002.
+Your job 5609278 ("seg2_lr2_2.00e-03") has been submitted
+2025-05-20 19:25:37 - Launcher: Submitted job with lr1=0.002 lr2=0.002.
+Your job 5609279 ("seg2_lr2_2.50e-03") has been submitted
+2025-05-20 19:25:37 - Launcher: Submitted job with lr1=0.002 lr2=0.0025.
+Your job 5609280 ("seg2_lr2_3.00e-03") has been submitted
+2025-05-20 19:25:37 - Launcher: Submitted job with lr1=0.002 lr2=0.003.
+Your job 5609281 ("seg2_lr2_4.00e-03") has been submitted
+2025-05-20 19:25:37 - Launcher: Submitted job with lr1=0.002 lr2=0.004.
+2025-05-20 19:41:00 - [Listener]: Received ACK from job ID: 5609268, seg 2, lr1=0.002, lr2=0.0
+    Job 5609268 completed, received 1/14 ACKs.
+2025-05-20 19:41:03 - [Listener]: Received ACK from job ID: 5609271, seg 2, lr1=0.002, lr2=0.0015
+    Job 5609271 completed, received 2/14 ACKs.
+2025-05-20 19:41:03 - [Listener]: Received ACK from job ID: 5609273, seg 2, lr1=0.002, lr2=0.0016666666666666668
+    Job 5609273 completed, received 3/14 ACKs.
+2025-05-20 19:41:03 - [Listener]: Received ACK from job ID: 5609272, seg 2, lr1=0.002, lr2=0.0016
+    Job 5609272 completed, received 4/14 ACKs.
+2025-05-20 19:41:06 - [Listener]: Received ACK from job ID: 5609269, seg 2, lr1=0.002, lr2=0.001
+    Job 5609269 completed, received 5/14 ACKs.
+2025-05-20 19:41:06 - [Listener]: Received ACK from job ID: 5609270, seg 2, lr1=0.002, lr2=0.0013333333333333333
+    Job 5609270 completed, received 6/14 ACKs.
+2025-05-20 19:54:48 - [Listener]: Received ACK from job ID: 5609274, seg 2, lr1=0.002, lr2=0.0017142857142857142
+    Job 5609274 completed, received 7/14 ACKs.
+2025-05-20 19:54:48 - [Listener]: Received ACK from job ID: 5609275, seg 2, lr1=0.002, lr2=0.00175
+    Job 5609275 completed, received 8/14 ACKs.
+2025-05-20 19:56:48 - [Listener]: Received ACK from job ID: 5609279, seg 2, lr1=0.002, lr2=0.0025
+    Job 5609279 completed, received 9/14 ACKs.
+2025-05-20 19:56:59 - [Listener]: Received ACK from job ID: 5609277, seg 2, lr1=0.002, lr2=0.0018000000000000002
+    Job 5609277 completed, received 10/14 ACKs.
+2025-05-20 19:57:02 - [Listener]: Received ACK from job ID: 5609276, seg 2, lr1=0.002, lr2=0.0017777777777777776
+    Job 5609276 completed, received 11/14 ACKs.
+2025-05-20 19:57:44 - [Listener]: Received ACK from job ID: 5609278, seg 2, lr1=0.002, lr2=0.002
+    Job 5609278 completed, received 12/14 ACKs.
+2025-05-20 20:09:15 - [Listener]: Received ACK from job ID: 5609280, seg 2, lr1=0.002, lr2=0.003
+    Job 5609280 completed, received 13/14 ACKs.
+2025-05-20 20:09:15 - [Listener]: Received ACK from job ID: 5609281, seg 2, lr1=0.002, lr2=0.004
+    Job 5609281 completed, received 14/14 ACKs.
+2025-05-20 20:09:15 - [Listener]: 14 / 14 ACKs received from jobs (5609268 5609271 5609273 5609272 5609269 5609270 5609274 5609275 5609279 5609277 5609276 5609278 5609280 5609281).
+2025-05-20 20:09:15 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 20:09:35 - [Update]: lr1=0.003, lr2_candidates=(0.0 0.0015 0.002 0.0022500000000000003 0.0024000000000000002 0.0025 0.0025714285714285713 0.002625 0.0026666666666666666 0.0027 0.003 0.00375 0.0045000000000000005 0.006) for segment 3.
+2025-05-20 20:09:35 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/200-300/lr2:3.00e-03
+2025-05-20 20:09:36 - [Master]: Segment 2/19 completed.
+
+====================================================================================================
+2025-05-20 20:09:36 - [Master]: Training segment 3 from iteration 300 to 400...
+2025-05-20 20:09:36 - [Listener]: Waiting for 14 ACKs...
+Your job 5609603 ("seg3_lr2_0.00e+00") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.0.
+Your job 5609604 ("seg3_lr2_1.50e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.0015.
+Your job 5609605 ("seg3_lr2_2.00e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.002.
+Your job 5609606 ("seg3_lr2_2.25e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.0022500000000000003.
+Your job 5609607 ("seg3_lr2_2.40e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.0024000000000000002.
+Your job 5609608 ("seg3_lr2_2.50e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.0025.
+Your job 5609609 ("seg3_lr2_2.57e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.0025714285714285713.
+Your job 5609610 ("seg3_lr2_2.63e-03") has been submitted
+2025-05-20 20:09:36 - Launcher: Submitted job with lr1=0.003 lr2=0.002625.
+Your job 5609611 ("seg3_lr2_2.67e-03") has been submitted
+2025-05-20 20:09:37 - Launcher: Submitted job with lr1=0.003 lr2=0.0026666666666666666.
+Your job 5609612 ("seg3_lr2_2.70e-03") has been submitted
+2025-05-20 20:09:37 - Launcher: Submitted job with lr1=0.003 lr2=0.0027.
+Your job 5609613 ("seg3_lr2_3.00e-03") has been submitted
+2025-05-20 20:09:37 - Launcher: Submitted job with lr1=0.003 lr2=0.003.
+Your job 5609614 ("seg3_lr2_3.75e-03") has been submitted
+2025-05-20 20:09:37 - Launcher: Submitted job with lr1=0.003 lr2=0.00375.
+Your job 5609615 ("seg3_lr2_4.50e-03") has been submitted
+2025-05-20 20:09:37 - Launcher: Submitted job with lr1=0.003 lr2=0.0045000000000000005.
+Your job 5609616 ("seg3_lr2_6.00e-03") has been submitted
+2025-05-20 20:09:37 - Launcher: Submitted job with lr1=0.003 lr2=0.006.
+2025-05-20 20:24:42 - [Listener]: Received ACK from job ID: 5609606, seg 3, lr1=0.003, lr2=0.0022500000000000003
+    Job 5609606 completed, received 1/14 ACKs.
+2025-05-20 20:25:00 - [Listener]: Received ACK from job ID: 5609605, seg 3, lr1=0.003, lr2=0.002
+    Job 5609605 completed, received 2/14 ACKs.
+2025-05-20 20:25:06 - [Listener]: Received ACK from job ID: 5609603, seg 3, lr1=0.003, lr2=0.0
+    Job 5609603 completed, received 3/14 ACKs.
+2025-05-20 20:25:09 - [Listener]: Received ACK from job ID: 5609604, seg 3, lr1=0.003, lr2=0.0015
+    Job 5609604 completed, received 4/14 ACKs.
+2025-05-20 20:25:20 - [Listener]: Received ACK from job ID: 5609608, seg 3, lr1=0.003, lr2=0.0025
+    Job 5609608 completed, received 5/14 ACKs.
+2025-05-20 20:25:31 - [Listener]: Received ACK from job ID: 5609607, seg 3, lr1=0.003, lr2=0.0024000000000000002
+    Job 5609607 completed, received 6/14 ACKs.
+2025-05-20 20:39:43 - [Listener]: Received ACK from job ID: 5609611, seg 3, lr1=0.003, lr2=0.0026666666666666666
+    Job 5609611 completed, received 7/14 ACKs.
+2025-05-20 20:39:43 - [Listener]: Received ACK from job ID: 5609610, seg 3, lr1=0.003, lr2=0.002625
+    Job 5609610 completed, received 8/14 ACKs.
+2025-05-20 20:39:46 - [Listener]: Received ACK from job ID: 5609612, seg 3, lr1=0.003, lr2=0.0027
+    Job 5609612 completed, received 9/14 ACKs.
+2025-05-20 20:40:10 - [Listener]: Received ACK from job ID: 5609614, seg 3, lr1=0.003, lr2=0.00375
+    Job 5609614 completed, received 10/14 ACKs.
+2025-05-20 20:40:40 - [Listener]: Received ACK from job ID: 5609613, seg 3, lr1=0.003, lr2=0.003
+    Job 5609613 completed, received 11/14 ACKs.
+2025-05-20 20:41:40 - [Listener]: Received ACK from job ID: 5609609, seg 3, lr1=0.003, lr2=0.0025714285714285713
+    Job 5609609 completed, received 12/14 ACKs.
+2025-05-20 20:54:16 - [Listener]: Received ACK from job ID: 5609616, seg 3, lr1=0.003, lr2=0.006
+    Job 5609616 completed, received 13/14 ACKs.
+2025-05-20 20:54:19 - [Listener]: Received ACK from job ID: 5609615, seg 3, lr1=0.003, lr2=0.0045000000000000005
+    Job 5609615 completed, received 14/14 ACKs.
+2025-05-20 20:54:19 - [Listener]: 14 / 14 ACKs received from jobs (5609606 5609605 5609603 5609604 5609608 5609607 5609611 5609610 5609612 5609614 5609613 5609609 5609616 5609615).
+2025-05-20 20:54:19 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 20:55:00 - [Update]: lr1=0.00375, lr2_candidates=(0.0 0.001875 0.0024999999999999996 0.0028125 0.003 0.003125 0.003214285714285714 0.00328125 0.003333333333333333 0.003375 0.00375 0.0046875 0.005625 0.0075) for segment 4.
+2025-05-20 20:55:00 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/300-400/lr2:3.75e-03
+2025-05-20 20:55:00 - [Master]: Segment 3/19 completed.
+
+====================================================================================================
+2025-05-20 20:55:00 - [Master]: Training segment 4 from iteration 400 to 500...
+2025-05-20 20:55:00 - [Listener]: Waiting for 14 ACKs...
+Your job 5610052 ("seg4_lr2_0.00e+00") has been submitted
+2025-05-20 20:55:00 - Launcher: Submitted job with lr1=0.00375 lr2=0.0.
+Your job 5610053 ("seg4_lr2_1.87e-03") has been submitted
+2025-05-20 20:55:00 - Launcher: Submitted job with lr1=0.00375 lr2=0.001875.
+Your job 5610054 ("seg4_lr2_2.50e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.0024999999999999996.
+Your job 5610055 ("seg4_lr2_2.81e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.0028125.
+Your job 5610056 ("seg4_lr2_3.00e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.003.
+Your job 5610057 ("seg4_lr2_3.13e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.003125.
+Your job 5610058 ("seg4_lr2_3.21e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.003214285714285714.
+Your job 5610059 ("seg4_lr2_3.28e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.00328125.
+Your job 5610060 ("seg4_lr2_3.33e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.003333333333333333.
+Your job 5610061 ("seg4_lr2_3.37e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.003375.
+Your job 5610062 ("seg4_lr2_3.75e-03") has been submitted
+2025-05-20 20:55:01 - Launcher: Submitted job with lr1=0.00375 lr2=0.00375.
+Your job 5610063 ("seg4_lr2_4.69e-03") has been submitted
+2025-05-20 20:55:02 - Launcher: Submitted job with lr1=0.00375 lr2=0.0046875.
+Your job 5610064 ("seg4_lr2_5.63e-03") has been submitted
+2025-05-20 20:55:02 - Launcher: Submitted job with lr1=0.00375 lr2=0.005625.
+Your job 5610065 ("seg4_lr2_7.50e-03") has been submitted
+2025-05-20 20:55:02 - Launcher: Submitted job with lr1=0.00375 lr2=0.0075.
+2025-05-20 21:10:25 - [Listener]: Received ACK from job ID: 5610054, seg 4, lr1=0.00375, lr2=0.0024999999999999996
+    Job 5610054 completed, received 1/14 ACKs.
+2025-05-20 21:10:25 - [Listener]: Received ACK from job ID: 5610057, seg 4, lr1=0.00375, lr2=0.003125
+    Job 5610057 completed, received 2/14 ACKs.
+2025-05-20 21:10:28 - [Listener]: Received ACK from job ID: 5610052, seg 4, lr1=0.00375, lr2=0.0
+    Job 5610052 completed, received 3/14 ACKs.
+2025-05-20 21:10:31 - [Listener]: Received ACK from job ID: 5610055, seg 4, lr1=0.00375, lr2=0.0028125
+    Job 5610055 completed, received 4/14 ACKs.
+2025-05-20 21:10:31 - [Listener]: Received ACK from job ID: 5610053, seg 4, lr1=0.00375, lr2=0.001875
+    Job 5610053 completed, received 5/14 ACKs.
+2025-05-20 21:11:01 - [Listener]: Received ACK from job ID: 5610056, seg 4, lr1=0.00375, lr2=0.003
+    Job 5610056 completed, received 6/14 ACKs.
+2025-05-20 21:24:19 - [Listener]: Received ACK from job ID: 5610058, seg 4, lr1=0.00375, lr2=0.003214285714285714
+    Job 5610058 completed, received 7/14 ACKs.
+2025-05-20 21:24:22 - [Listener]: Received ACK from job ID: 5610059, seg 4, lr1=0.00375, lr2=0.00328125
+    Job 5610059 completed, received 8/14 ACKs.
+2025-05-20 21:24:25 - [Listener]: Received ACK from job ID: 5610061, seg 4, lr1=0.00375, lr2=0.003375
+    Job 5610061 completed, received 9/14 ACKs.
+2025-05-20 21:24:43 - [Listener]: Received ACK from job ID: 5610060, seg 4, lr1=0.00375, lr2=0.003333333333333333
+    Job 5610060 completed, received 10/14 ACKs.
+2025-05-20 21:25:01 - [Listener]: Received ACK from job ID: 5610062, seg 4, lr1=0.00375, lr2=0.00375
+    Job 5610062 completed, received 11/14 ACKs.
+2025-05-20 21:25:01 - [Listener]: Received ACK from job ID: 5610063, seg 4, lr1=0.00375, lr2=0.0046875
+    Job 5610063 completed, received 12/14 ACKs.
+2025-05-20 21:39:13 - [Listener]: Received ACK from job ID: 5610065, seg 4, lr1=0.00375, lr2=0.0075
+    Job 5610065 completed, received 13/14 ACKs.
+2025-05-20 21:39:19 - [Listener]: Received ACK from job ID: 5610064, seg 4, lr1=0.00375, lr2=0.005625
+    Job 5610064 completed, received 14/14 ACKs.
+2025-05-20 21:39:19 - [Listener]: 14 / 14 ACKs received from jobs (5610054 5610057 5610052 5610055 5610053 5610056 5610058 5610059 5610061 5610060 5610062 5610063 5610065 5610064).
+2025-05-20 21:39:19 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 21:39:39 - [Update]: lr1=0.00375, lr2_candidates=(0.0 0.001875 0.0024999999999999996 0.0028125 0.003 0.003125 0.003214285714285714 0.00328125 0.003333333333333333 0.003375 0.00375 0.0046875 0.005625 0.0075) for segment 5.
+2025-05-20 21:39:39 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/400-500/lr2:3.75e-03
+2025-05-20 21:39:39 - [Master]: Segment 4/19 completed.
+
+====================================================================================================
+2025-05-20 21:39:39 - [Master]: Training segment 5 from iteration 500 to 600...
+2025-05-20 21:39:39 - [Listener]: Waiting for 14 ACKs...
+Your job 5610340 ("seg5_lr2_0.00e+00") has been submitted
+2025-05-20 21:39:39 - Launcher: Submitted job with lr1=0.00375 lr2=0.0.
+Your job 5610341 ("seg5_lr2_1.87e-03") has been submitted
+2025-05-20 21:39:39 - Launcher: Submitted job with lr1=0.00375 lr2=0.001875.
+Your job 5610342 ("seg5_lr2_2.50e-03") has been submitted
+2025-05-20 21:39:39 - Launcher: Submitted job with lr1=0.00375 lr2=0.0024999999999999996.
+Your job 5610343 ("seg5_lr2_2.81e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.0028125.
+Your job 5610344 ("seg5_lr2_3.00e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.003.
+Your job 5610345 ("seg5_lr2_3.13e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.003125.
+Your job 5610346 ("seg5_lr2_3.21e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.003214285714285714.
+Your job 5610347 ("seg5_lr2_3.28e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.00328125.
+Your job 5610348 ("seg5_lr2_3.33e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.003333333333333333.
+Your job 5610350 ("seg5_lr2_3.37e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.003375.
+Your job 5610351 ("seg5_lr2_3.75e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.00375.
+Your job 5610352 ("seg5_lr2_4.69e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.0046875.
+Your job 5610353 ("seg5_lr2_5.63e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.005625.
+Your job 5610354 ("seg5_lr2_7.50e-03") has been submitted
+2025-05-20 21:39:40 - Launcher: Submitted job with lr1=0.00375 lr2=0.0075.
+2025-05-20 21:52:39 - [Listener]: Received ACK from job ID: 5610344, seg 5, lr1=0.00375, lr2=0.003
+    Job 5610344 completed, received 1/14 ACKs.
+2025-05-20 21:52:50 - [Listener]: Received ACK from job ID: 5610345, seg 5, lr1=0.00375, lr2=0.003125
+    Job 5610345 completed, received 2/14 ACKs.
+2025-05-20 21:52:53 - [Listener]: Received ACK from job ID: 5610342, seg 5, lr1=0.00375, lr2=0.0024999999999999996
+    Job 5610342 completed, received 3/14 ACKs.
+2025-05-20 21:52:56 - [Listener]: Received ACK from job ID: 5610343, seg 5, lr1=0.00375, lr2=0.0028125
+    Job 5610343 completed, received 4/14 ACKs.
+2025-05-20 21:53:02 - [Listener]: Received ACK from job ID: 5610341, seg 5, lr1=0.00375, lr2=0.001875
+    Job 5610341 completed, received 5/14 ACKs.
+2025-05-20 21:54:56 - [Listener]: Received ACK from job ID: 5610340, seg 5, lr1=0.00375, lr2=0.0
+    Job 5610340 completed, received 6/14 ACKs.
+2025-05-20 22:05:15 - [Listener]: Received ACK from job ID: 5610346, seg 5, lr1=0.00375, lr2=0.003214285714285714
+    Job 5610346 completed, received 7/14 ACKs.
+2025-05-20 22:05:26 - [Listener]: Received ACK from job ID: 5610347, seg 5, lr1=0.00375, lr2=0.00328125
+    Job 5610347 completed, received 8/14 ACKs.
+2025-05-20 22:06:38 - [Listener]: Received ACK from job ID: 5610350, seg 5, lr1=0.00375, lr2=0.003375
+    Job 5610350 completed, received 9/14 ACKs.
+2025-05-20 22:06:38 - [Listener]: Received ACK from job ID: 5610348, seg 5, lr1=0.00375, lr2=0.003333333333333333
+    Job 5610348 completed, received 10/14 ACKs.
+2025-05-20 22:07:50 - [Listener]: Received ACK from job ID: 5610351, seg 5, lr1=0.00375, lr2=0.00375
+    Job 5610351 completed, received 11/14 ACKs.
+2025-05-20 22:09:38 - [Listener]: Received ACK from job ID: 5610352, seg 5, lr1=0.00375, lr2=0.0046875
+    Job 5610352 completed, received 12/14 ACKs.
+2025-05-20 22:19:02 - [Listener]: Received ACK from job ID: 5610354, seg 5, lr1=0.00375, lr2=0.0075
+    Job 5610354 completed, received 13/14 ACKs.
+2025-05-20 22:19:26 - [Listener]: Received ACK from job ID: 5610353, seg 5, lr1=0.00375, lr2=0.005625
+    Job 5610353 completed, received 14/14 ACKs.
+2025-05-20 22:19:26 - [Listener]: 14 / 14 ACKs received from jobs (5610344 5610345 5610342 5610343 5610341 5610340 5610346 5610347 5610350 5610348 5610351 5610352 5610354 5610353).
+2025-05-20 22:19:26 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 22:19:46 - [Update]: lr1=0.0046875, lr2_candidates=(0.0 0.00234375 0.0031249999999999997 0.0035156249999999997 0.00375 0.00390625 0.0040178571428571425 0.0041015625 0.004166666666666667 0.00421875 0.0046875 0.005859375 0.007031249999999999 0.009375) for segment 6.
+2025-05-20 22:19:46 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/500-600/lr2:4.69e-03
+2025-05-20 22:19:46 - [Master]: Segment 5/19 completed.
+
+====================================================================================================
+2025-05-20 22:19:46 - [Master]: Training segment 6 from iteration 600 to 700...
+2025-05-20 22:19:46 - [Listener]: Waiting for 14 ACKs...
+Your job 5612002 ("seg6_lr2_0.00e+00") has been submitted
+2025-05-20 22:19:46 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0.
+Your job 5612003 ("seg6_lr2_2.34e-03") has been submitted
+2025-05-20 22:19:46 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00234375.
+Your job 5612004 ("seg6_lr2_3.12e-03") has been submitted
+2025-05-20 22:19:46 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0031249999999999997.
+Your job 5612005 ("seg6_lr2_3.52e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0035156249999999997.
+Your job 5612006 ("seg6_lr2_3.75e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00375.
+Your job 5612007 ("seg6_lr2_3.91e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00390625.
+Your job 5612008 ("seg6_lr2_4.02e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0040178571428571425.
+Your job 5612009 ("seg6_lr2_4.10e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0041015625.
+Your job 5612010 ("seg6_lr2_4.17e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.004166666666666667.
+Your job 5612011 ("seg6_lr2_4.22e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00421875.
+Your job 5612012 ("seg6_lr2_4.69e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0046875.
+Your job 5612013 ("seg6_lr2_5.86e-03") has been submitted
+2025-05-20 22:19:47 - Launcher: Submitted job with lr1=0.0046875 lr2=0.005859375.
+Your job 5612014 ("seg6_lr2_7.03e-03") has been submitted
+2025-05-20 22:19:48 - Launcher: Submitted job with lr1=0.0046875 lr2=0.007031249999999999.
+Your job 5612015 ("seg6_lr2_9.38e-03") has been submitted
+2025-05-20 22:19:48 - Launcher: Submitted job with lr1=0.0046875 lr2=0.009375.
+2025-05-20 22:32:34 - [Listener]: Received ACK from job ID: 5612003, seg 6, lr1=0.0046875, lr2=0.00234375
+    Job 5612003 completed, received 1/14 ACKs.
+2025-05-20 22:32:45 - [Listener]: Received ACK from job ID: 5612004, seg 6, lr1=0.0046875, lr2=0.0031249999999999997
+    Job 5612004 completed, received 2/14 ACKs.
+2025-05-20 22:33:21 - [Listener]: Received ACK from job ID: 5612005, seg 6, lr1=0.0046875, lr2=0.0035156249999999997
+    Job 5612005 completed, received 3/14 ACKs.
+2025-05-20 22:34:45 - [Listener]: Received ACK from job ID: 5612002, seg 6, lr1=0.0046875, lr2=0.0
+    Job 5612002 completed, received 4/14 ACKs.
+2025-05-20 22:34:48 - [Listener]: Received ACK from job ID: 5612007, seg 6, lr1=0.0046875, lr2=0.00390625
+    Job 5612007 completed, received 5/14 ACKs.
+2025-05-20 22:34:48 - [Listener]: Received ACK from job ID: 5612006, seg 6, lr1=0.0046875, lr2=0.00375
+    Job 5612006 completed, received 6/14 ACKs.
+2025-05-20 22:45:01 - [Listener]: Received ACK from job ID: 5612008, seg 6, lr1=0.0046875, lr2=0.0040178571428571425
+    Job 5612008 completed, received 7/14 ACKs.
+2025-05-20 22:47:13 - [Listener]: Received ACK from job ID: 5612010, seg 6, lr1=0.0046875, lr2=0.004166666666666667
+    Job 5612010 completed, received 8/14 ACKs.
+2025-05-20 22:47:13 - [Listener]: Received ACK from job ID: 5612009, seg 6, lr1=0.0046875, lr2=0.0041015625
+    Job 5612009 completed, received 9/14 ACKs.
+2025-05-20 22:48:43 - [Listener]: Received ACK from job ID: 5612013, seg 6, lr1=0.0046875, lr2=0.005859375
+    Job 5612013 completed, received 10/14 ACKs.
+2025-05-20 22:48:54 - [Listener]: Received ACK from job ID: 5612011, seg 6, lr1=0.0046875, lr2=0.00421875
+    Job 5612011 completed, received 11/14 ACKs.
+2025-05-20 22:48:54 - [Listener]: Received ACK from job ID: 5612012, seg 6, lr1=0.0046875, lr2=0.0046875
+    Job 5612012 completed, received 12/14 ACKs.
+2025-05-20 22:57:48 - [Listener]: Received ACK from job ID: 5612014, seg 6, lr1=0.0046875, lr2=0.007031249999999999
+    Job 5612014 completed, received 13/14 ACKs.
+2025-05-20 23:00:18 - [Listener]: Received ACK from job ID: 5612015, seg 6, lr1=0.0046875, lr2=0.009375
+    Job 5612015 completed, received 14/14 ACKs.
+2025-05-20 23:00:18 - [Listener]: 14 / 14 ACKs received from jobs (5612003 5612004 5612005 5612002 5612007 5612006 5612008 5612010 5612009 5612013 5612011 5612012 5612014 5612015).
+2025-05-20 23:00:18 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 23:00:38 - [Update]: lr1=0.0046875, lr2_candidates=(0.0 0.00234375 0.0031249999999999997 0.0035156249999999997 0.00375 0.00390625 0.0040178571428571425 0.0041015625 0.004166666666666667 0.00421875 0.0046875 0.005859375 0.007031249999999999 0.009375) for segment 7.
+2025-05-20 23:00:38 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/600-700/lr2:4.69e-03
+2025-05-20 23:00:38 - [Master]: Segment 6/19 completed.
+
+====================================================================================================
+2025-05-20 23:00:38 - [Master]: Training segment 7 from iteration 700 to 800...
+2025-05-20 23:00:38 - [Listener]: Waiting for 14 ACKs...
+Your job 5612686 ("seg7_lr2_0.00e+00") has been submitted
+2025-05-20 23:00:38 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0.
+Your job 5612687 ("seg7_lr2_2.34e-03") has been submitted
+2025-05-20 23:00:39 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00234375.
+Your job 5612688 ("seg7_lr2_3.12e-03") has been submitted
+2025-05-20 23:00:39 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0031249999999999997.
+Your job 5612689 ("seg7_lr2_3.52e-03") has been submitted
+2025-05-20 23:00:39 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0035156249999999997.
+Your job 5612690 ("seg7_lr2_3.75e-03") has been submitted
+2025-05-20 23:00:39 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00375.
+Your job 5612691 ("seg7_lr2_3.91e-03") has been submitted
+2025-05-20 23:00:39 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00390625.
+Your job 5612692 ("seg7_lr2_4.02e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0040178571428571425.
+Your job 5612693 ("seg7_lr2_4.10e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0041015625.
+Your job 5612694 ("seg7_lr2_4.17e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.004166666666666667.
+Your job 5612695 ("seg7_lr2_4.22e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.00421875.
+Your job 5612696 ("seg7_lr2_4.69e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.0046875.
+Your job 5612697 ("seg7_lr2_5.86e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.005859375.
+Your job 5612698 ("seg7_lr2_7.03e-03") has been submitted
+2025-05-20 23:00:40 - Launcher: Submitted job with lr1=0.0046875 lr2=0.007031249999999999.
+Your job 5612699 ("seg7_lr2_9.38e-03") has been submitted
+2025-05-20 23:00:41 - Launcher: Submitted job with lr1=0.0046875 lr2=0.009375.
+2025-05-20 23:14:26 - [Listener]: Received ACK from job ID: 5612690, seg 7, lr1=0.0046875, lr2=0.00375
+    Job 5612690 completed, received 1/14 ACKs.
+2025-05-20 23:14:37 - [Listener]: Received ACK from job ID: 5612691, seg 7, lr1=0.0046875, lr2=0.00390625
+    Job 5612691 completed, received 2/14 ACKs.
+2025-05-20 23:14:55 - [Listener]: Received ACK from job ID: 5612687, seg 7, lr1=0.0046875, lr2=0.00234375
+    Job 5612687 completed, received 3/14 ACKs.
+2025-05-20 23:14:55 - [Listener]: Received ACK from job ID: 5612689, seg 7, lr1=0.0046875, lr2=0.0035156249999999997
+    Job 5612689 completed, received 4/14 ACKs.
+2025-05-20 23:15:01 - [Listener]: Received ACK from job ID: 5612686, seg 7, lr1=0.0046875, lr2=0.0
+    Job 5612686 completed, received 5/14 ACKs.
+2025-05-20 23:15:01 - [Listener]: Received ACK from job ID: 5612688, seg 7, lr1=0.0046875, lr2=0.0031249999999999997
+    Job 5612688 completed, received 6/14 ACKs.
+2025-05-20 23:28:38 - [Listener]: Received ACK from job ID: 5612693, seg 7, lr1=0.0046875, lr2=0.0041015625
+    Job 5612693 completed, received 7/14 ACKs.
+2025-05-20 23:28:41 - [Listener]: Received ACK from job ID: 5612692, seg 7, lr1=0.0046875, lr2=0.0040178571428571425
+    Job 5612692 completed, received 8/14 ACKs.
+2025-05-20 23:28:41 - [Listener]: Received ACK from job ID: 5612697, seg 7, lr1=0.0046875, lr2=0.005859375
+    Job 5612697 completed, received 9/14 ACKs.
+2025-05-20 23:28:41 - [Listener]: Received ACK from job ID: 5612694, seg 7, lr1=0.0046875, lr2=0.004166666666666667
+    Job 5612694 completed, received 10/14 ACKs.
+2025-05-20 23:28:44 - [Listener]: Received ACK from job ID: 5612695, seg 7, lr1=0.0046875, lr2=0.00421875
+    Job 5612695 completed, received 11/14 ACKs.
+2025-05-20 23:29:14 - [Listener]: Received ACK from job ID: 5612696, seg 7, lr1=0.0046875, lr2=0.0046875
+    Job 5612696 completed, received 12/14 ACKs.
+2025-05-20 23:41:26 - [Listener]: Received ACK from job ID: 5612698, seg 7, lr1=0.0046875, lr2=0.007031249999999999
+    Job 5612698 completed, received 13/14 ACKs.
+2025-05-20 23:41:26 - [Listener]: Received ACK from job ID: 5612699, seg 7, lr1=0.0046875, lr2=0.009375
+    Job 5612699 completed, received 14/14 ACKs.
+2025-05-20 23:41:26 - [Listener]: 14 / 14 ACKs received from jobs (5612690 5612691 5612687 5612689 5612686 5612688 5612693 5612692 5612697 5612694 5612695 5612696 5612698 5612699).
+2025-05-20 23:41:26 - [Update]: computing lr1 and lr2_candidates...
+2025-05-20 23:41:46 - [Update]: lr1=0.00421875, lr2_candidates=(0.0 0.002109375 0.0028125 0.0031640625 0.0033750000000000004 0.0035156250000000005 0.0036160714285714286 0.0036914062500000002 0.00375 0.0037968750000000003 0.00421875 0.0052734375 0.006328125 0.0084375) for segment 8.
+2025-05-20 23:41:46 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/700-800/lr2:4.22e-03
+2025-05-20 23:41:46 - [Master]: Segment 7/19 completed.
+
+====================================================================================================
+2025-05-20 23:41:46 - [Master]: Training segment 8 from iteration 800 to 900...
+2025-05-20 23:41:46 - [Listener]: Waiting for 14 ACKs...
+Your job 5612990 ("seg8_lr2_0.00e+00") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0.
+Your job 5612991 ("seg8_lr2_2.11e-03") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.002109375.
+Your job 5612992 ("seg8_lr2_2.81e-03") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0028125.
+Your job 5612993 ("seg8_lr2_3.16e-03") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0031640625.
+Your job 5612994 ("seg8_lr2_3.38e-03") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0033750000000000004.
+Your job 5612995 ("seg8_lr2_3.52e-03") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0035156250000000005.
+Your job 5612996 ("seg8_lr2_3.62e-03") has been submitted
+2025-05-20 23:41:46 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036160714285714286.
+Your job 5612997 ("seg8_lr2_3.69e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036914062500000002.
+Your job 5612998 ("seg8_lr2_3.75e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00375.
+Your job 5612999 ("seg8_lr2_3.80e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0037968750000000003.
+Your job 5613000 ("seg8_lr2_4.22e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00421875.
+Your job 5613001 ("seg8_lr2_5.27e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0052734375.
+Your job 5613002 ("seg8_lr2_6.33e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.006328125.
+Your job 5613003 ("seg8_lr2_8.44e-03") has been submitted
+2025-05-20 23:41:47 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0084375.
+2025-05-20 23:54:16 - [Listener]: Received ACK from job ID: 5612993, seg 8, lr1=0.00421875, lr2=0.0031640625
+    Job 5612993 completed, received 1/14 ACKs.
+2025-05-20 23:54:27 - [Listener]: Received ACK from job ID: 5612990, seg 8, lr1=0.00421875, lr2=0.0
+    Job 5612990 completed, received 2/14 ACKs.
+2025-05-20 23:54:27 - [Listener]: Received ACK from job ID: 5612991, seg 8, lr1=0.00421875, lr2=0.002109375
+    Job 5612991 completed, received 3/14 ACKs.
+2025-05-20 23:55:09 - [Listener]: Received ACK from job ID: 5612995, seg 8, lr1=0.00421875, lr2=0.0035156250000000005
+    Job 5612995 completed, received 4/14 ACKs.
+2025-05-20 23:55:12 - [Listener]: Received ACK from job ID: 5612992, seg 8, lr1=0.00421875, lr2=0.0028125
+    Job 5612992 completed, received 5/14 ACKs.
+2025-05-20 23:55:54 - [Listener]: Received ACK from job ID: 5612994, seg 8, lr1=0.00421875, lr2=0.0033750000000000004
+    Job 5612994 completed, received 6/14 ACKs.
+2025-05-21 00:07:00 - [Listener]: Received ACK from job ID: 5612997, seg 8, lr1=0.00421875, lr2=0.0036914062500000002
+    Job 5612997 completed, received 7/14 ACKs.
+2025-05-21 00:07:03 - [Listener]: Received ACK from job ID: 5612998, seg 8, lr1=0.00421875, lr2=0.00375
+    Job 5612998 completed, received 8/14 ACKs.
+2025-05-21 00:08:16 - [Listener]: Received ACK from job ID: 5612999, seg 8, lr1=0.00421875, lr2=0.0037968750000000003
+    Job 5612999 completed, received 9/14 ACKs.
+2025-05-21 00:08:34 - [Listener]: Received ACK from job ID: 5613000, seg 8, lr1=0.00421875, lr2=0.00421875
+    Job 5613000 completed, received 10/14 ACKs.
+2025-05-21 00:08:34 - [Listener]: Received ACK from job ID: 5613001, seg 8, lr1=0.00421875, lr2=0.0052734375
+    Job 5613001 completed, received 11/14 ACKs.
+2025-05-21 00:09:04 - [Listener]: Received ACK from job ID: 5612996, seg 8, lr1=0.00421875, lr2=0.0036160714285714286
+    Job 5612996 completed, received 12/14 ACKs.
+2025-05-21 00:19:28 - [Listener]: Received ACK from job ID: 5613002, seg 8, lr1=0.00421875, lr2=0.006328125
+    Job 5613002 completed, received 13/14 ACKs.
+2025-05-21 00:19:28 - [Listener]: Received ACK from job ID: 5613003, seg 8, lr1=0.00421875, lr2=0.0084375
+    Job 5613003 completed, received 14/14 ACKs.
+2025-05-21 00:19:28 - [Listener]: 14 / 14 ACKs received from jobs (5612993 5612990 5612991 5612995 5612992 5612994 5612997 5612998 5612999 5613000 5613001 5612996 5613002 5613003).
+2025-05-21 00:19:28 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 00:19:48 - [Update]: lr1=0.00421875, lr2_candidates=(0.0 0.002109375 0.0028125 0.0031640625 0.0033750000000000004 0.0035156250000000005 0.0036160714285714286 0.0036914062500000002 0.00375 0.0037968750000000003 0.00421875 0.0052734375 0.006328125 0.0084375) for segment 9.
+2025-05-21 00:19:48 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/800-900/lr2:4.22e-03
+2025-05-21 00:19:48 - [Master]: Segment 8/19 completed.
+
+====================================================================================================
+2025-05-21 00:19:48 - [Master]: Training segment 9 from iteration 900 to 1000...
+2025-05-21 00:19:48 - [Listener]: Waiting for 14 ACKs...
+Your job 5613177 ("seg9_lr2_0.00e+00") has been submitted
+2025-05-21 00:19:48 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0.
+Your job 5613178 ("seg9_lr2_2.11e-03") has been submitted
+2025-05-21 00:19:48 - Launcher: Submitted job with lr1=0.00421875 lr2=0.002109375.
+Your job 5613179 ("seg9_lr2_2.81e-03") has been submitted
+2025-05-21 00:19:48 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0028125.
+Your job 5613180 ("seg9_lr2_3.16e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0031640625.
+Your job 5613181 ("seg9_lr2_3.38e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0033750000000000004.
+Your job 5613182 ("seg9_lr2_3.52e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0035156250000000005.
+Your job 5613183 ("seg9_lr2_3.62e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036160714285714286.
+Your job 5613184 ("seg9_lr2_3.69e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036914062500000002.
+Your job 5613185 ("seg9_lr2_3.75e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00375.
+Your job 5613186 ("seg9_lr2_3.80e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0037968750000000003.
+Your job 5613187 ("seg9_lr2_4.22e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00421875.
+Your job 5613188 ("seg9_lr2_5.27e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0052734375.
+Your job 5613189 ("seg9_lr2_6.33e-03") has been submitted
+2025-05-21 00:19:49 - Launcher: Submitted job with lr1=0.00421875 lr2=0.006328125.
+Your job 5613190 ("seg9_lr2_8.44e-03") has been submitted
+2025-05-21 00:19:50 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0084375.
+2025-05-21 00:31:48 - [Listener]: Received ACK from job ID: 5613180, seg 9, lr1=0.00421875, lr2=0.0031640625
+    Job 5613180 completed, received 1/14 ACKs.
+2025-05-21 00:31:48 - [Listener]: Received ACK from job ID: 5613179, seg 9, lr1=0.00421875, lr2=0.0028125
+    Job 5613179 completed, received 2/14 ACKs.
+2025-05-21 00:31:59 - [Listener]: Received ACK from job ID: 5613177, seg 9, lr1=0.00421875, lr2=0.0
+    Job 5613177 completed, received 3/14 ACKs.
+2025-05-21 00:32:05 - [Listener]: Received ACK from job ID: 5613178, seg 9, lr1=0.00421875, lr2=0.002109375
+    Job 5613178 completed, received 4/14 ACKs.
+2025-05-21 00:44:24 - [Listener]: Received ACK from job ID: 5613184, seg 9, lr1=0.00421875, lr2=0.0036914062500000002
+    Job 5613184 completed, received 5/14 ACKs.
+2025-05-21 00:44:35 - [Listener]: Received ACK from job ID: 5613181, seg 9, lr1=0.00421875, lr2=0.0033750000000000004
+    Job 5613181 completed, received 6/14 ACKs.
+2025-05-21 00:44:46 - [Listener]: Received ACK from job ID: 5613182, seg 9, lr1=0.00421875, lr2=0.0035156250000000005
+    Job 5613182 completed, received 7/14 ACKs.
+2025-05-21 00:44:46 - [Listener]: Received ACK from job ID: 5613183, seg 9, lr1=0.00421875, lr2=0.0036160714285714286
+    Job 5613183 completed, received 8/14 ACKs.
+2025-05-21 00:57:52 - [Listener]: Received ACK from job ID: 5613187, seg 9, lr1=0.00421875, lr2=0.00421875
+    Job 5613187 completed, received 9/14 ACKs.
+2025-05-21 00:57:55 - [Listener]: Received ACK from job ID: 5613186, seg 9, lr1=0.00421875, lr2=0.0037968750000000003
+    Job 5613186 completed, received 10/14 ACKs.
+2025-05-21 00:57:58 - [Listener]: Received ACK from job ID: 5613188, seg 9, lr1=0.00421875, lr2=0.0052734375
+    Job 5613188 completed, received 11/14 ACKs.
+2025-05-21 00:58:01 - [Listener]: Received ACK from job ID: 5613185, seg 9, lr1=0.00421875, lr2=0.00375
+    Job 5613185 completed, received 12/14 ACKs.
+2025-05-21 01:10:55 - [Listener]: Received ACK from job ID: 5613189, seg 9, lr1=0.00421875, lr2=0.006328125
+    Job 5613189 completed, received 13/14 ACKs.
+2025-05-21 01:10:58 - [Listener]: Received ACK from job ID: 5613190, seg 9, lr1=0.00421875, lr2=0.0084375
+    Job 5613190 completed, received 14/14 ACKs.
+2025-05-21 01:10:58 - [Listener]: 14 / 14 ACKs received from jobs (5613180 5613179 5613177 5613178 5613184 5613181 5613182 5613183 5613187 5613186 5613188 5613185 5613189 5613190).
+2025-05-21 01:10:58 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 01:11:21 - [Update]: lr1=0.00421875, lr2_candidates=(0.0 0.002109375 0.0028125 0.0031640625 0.0033750000000000004 0.0035156250000000005 0.0036160714285714286 0.0036914062500000002 0.00375 0.0037968750000000003 0.00421875 0.0052734375 0.006328125 0.0084375) for segment 10.
+2025-05-21 01:11:21 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/900-1000/lr2:4.22e-03
+2025-05-21 01:11:21 - [Master]: Segment 9/19 completed.
+
+====================================================================================================
+2025-05-21 01:11:21 - [Master]: Training segment 10 from iteration 1000 to 1100...
+2025-05-21 01:11:21 - [Listener]: Waiting for 14 ACKs...
+Your job 5613549 ("seg10_lr2_0.00e+00") has been submitted
+2025-05-21 01:11:21 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0.
+Your job 5613550 ("seg10_lr2_2.11e-03") has been submitted
+2025-05-21 01:11:21 - Launcher: Submitted job with lr1=0.00421875 lr2=0.002109375.
+Your job 5613551 ("seg10_lr2_2.81e-03") has been submitted
+2025-05-21 01:11:21 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0028125.
+Your job 5613552 ("seg10_lr2_3.16e-03") has been submitted
+2025-05-21 01:11:21 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0031640625.
+Your job 5613553 ("seg10_lr2_3.38e-03") has been submitted
+2025-05-21 01:11:21 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0033750000000000004.
+Your job 5613554 ("seg10_lr2_3.52e-03") has been submitted
+2025-05-21 01:11:21 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0035156250000000005.
+Your job 5613555 ("seg10_lr2_3.62e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036160714285714286.
+Your job 5613556 ("seg10_lr2_3.69e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036914062500000002.
+Your job 5613557 ("seg10_lr2_3.75e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00375.
+Your job 5613558 ("seg10_lr2_3.80e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0037968750000000003.
+Your job 5613559 ("seg10_lr2_4.22e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00421875.
+Your job 5613560 ("seg10_lr2_5.27e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0052734375.
+Your job 5613561 ("seg10_lr2_6.33e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.006328125.
+Your job 5613562 ("seg10_lr2_8.44e-03") has been submitted
+2025-05-21 01:11:22 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0084375.
+2025-05-21 01:25:15 - [Listener]: Received ACK from job ID: 5613552, seg 10, lr1=0.00421875, lr2=0.0031640625
+    Job 5613552 completed, received 1/14 ACKs.
+2025-05-21 01:25:18 - [Listener]: Received ACK from job ID: 5613550, seg 10, lr1=0.00421875, lr2=0.002109375
+    Job 5613550 completed, received 2/14 ACKs.
+2025-05-21 01:25:36 - [Listener]: Received ACK from job ID: 5613551, seg 10, lr1=0.00421875, lr2=0.0028125
+    Job 5613551 completed, received 3/14 ACKs.
+2025-05-21 01:25:47 - [Listener]: Received ACK from job ID: 5613549, seg 10, lr1=0.00421875, lr2=0.0
+    Job 5613549 completed, received 4/14 ACKs.
+2025-05-21 01:38:29 - [Listener]: Received ACK from job ID: 5613556, seg 10, lr1=0.00421875, lr2=0.0036914062500000002
+    Job 5613556 completed, received 5/14 ACKs.
+2025-05-21 01:38:32 - [Listener]: Received ACK from job ID: 5613555, seg 10, lr1=0.00421875, lr2=0.0036160714285714286
+    Job 5613555 completed, received 6/14 ACKs.
+2025-05-21 01:38:43 - [Listener]: Received ACK from job ID: 5613553, seg 10, lr1=0.00421875, lr2=0.0033750000000000004
+    Job 5613553 completed, received 7/14 ACKs.
+2025-05-21 01:38:46 - [Listener]: Received ACK from job ID: 5613554, seg 10, lr1=0.00421875, lr2=0.0035156250000000005
+    Job 5613554 completed, received 8/14 ACKs.
+2025-05-21 01:51:35 - [Listener]: Received ACK from job ID: 5613560, seg 10, lr1=0.00421875, lr2=0.0052734375
+    Job 5613560 completed, received 9/14 ACKs.
+2025-05-21 01:51:53 - [Listener]: Received ACK from job ID: 5613559, seg 10, lr1=0.00421875, lr2=0.00421875
+    Job 5613559 completed, received 10/14 ACKs.
+2025-05-21 01:51:53 - [Listener]: Received ACK from job ID: 5613558, seg 10, lr1=0.00421875, lr2=0.0037968750000000003
+    Job 5613558 completed, received 11/14 ACKs.
+2025-05-21 01:51:53 - [Listener]: Received ACK from job ID: 5613557, seg 10, lr1=0.00421875, lr2=0.00375
+    Job 5613557 completed, received 12/14 ACKs.
+2025-05-21 02:04:11 - [Listener]: Received ACK from job ID: 5613561, seg 10, lr1=0.00421875, lr2=0.006328125
+    Job 5613561 completed, received 13/14 ACKs.
+2025-05-21 02:04:29 - [Listener]: Received ACK from job ID: 5613562, seg 10, lr1=0.00421875, lr2=0.0084375
+    Job 5613562 completed, received 14/14 ACKs.
+2025-05-21 02:04:29 - [Listener]: 14 / 14 ACKs received from jobs (5613552 5613550 5613551 5613549 5613556 5613555 5613553 5613554 5613560 5613559 5613558 5613557 5613561 5613562).
+2025-05-21 02:04:29 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 02:04:52 - [Update]: lr1=0.00421875, lr2_candidates=(0.0 0.002109375 0.0028125 0.0031640625 0.0033750000000000004 0.0035156250000000005 0.0036160714285714286 0.0036914062500000002 0.00375 0.0037968750000000003 0.00421875 0.0052734375 0.006328125 0.0084375) for segment 11.
+2025-05-21 02:04:52 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1000-1100/lr2:4.22e-03
+2025-05-21 02:04:52 - [Master]: Segment 10/19 completed.
+
+====================================================================================================
+2025-05-21 02:04:52 - [Master]: Training segment 11 from iteration 1100 to 1200...
+2025-05-21 02:04:52 - [Listener]: Waiting for 14 ACKs...
+Your job 5613975 ("seg11_lr2_0.00e+00") has been submitted
+2025-05-21 02:04:52 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0.
+Your job 5613976 ("seg11_lr2_2.11e-03") has been submitted
+2025-05-21 02:04:52 - Launcher: Submitted job with lr1=0.00421875 lr2=0.002109375.
+Your job 5613977 ("seg11_lr2_2.81e-03") has been submitted
+2025-05-21 02:04:52 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0028125.
+Your job 5613978 ("seg11_lr2_3.16e-03") has been submitted
+2025-05-21 02:04:52 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0031640625.
+Your job 5613979 ("seg11_lr2_3.38e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0033750000000000004.
+Your job 5613980 ("seg11_lr2_3.52e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0035156250000000005.
+Your job 5613981 ("seg11_lr2_3.62e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036160714285714286.
+Your job 5613982 ("seg11_lr2_3.69e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0036914062500000002.
+Your job 5613983 ("seg11_lr2_3.75e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00375.
+Your job 5613984 ("seg11_lr2_3.80e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0037968750000000003.
+Your job 5613985 ("seg11_lr2_4.22e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.00421875.
+Your job 5613986 ("seg11_lr2_5.27e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0052734375.
+Your job 5613987 ("seg11_lr2_6.33e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.006328125.
+Your job 5613988 ("seg11_lr2_8.44e-03") has been submitted
+2025-05-21 02:04:53 - Launcher: Submitted job with lr1=0.00421875 lr2=0.0084375.
+2025-05-21 02:18:22 - [Listener]: Received ACK from job ID: 5613978, seg 11, lr1=0.00421875, lr2=0.0031640625
+    Job 5613978 completed, received 1/14 ACKs.
+2025-05-21 02:18:33 - [Listener]: Received ACK from job ID: 5613976, seg 11, lr1=0.00421875, lr2=0.002109375
+    Job 5613976 completed, received 2/14 ACKs.
+2025-05-21 02:18:44 - [Listener]: Received ACK from job ID: 5613977, seg 11, lr1=0.00421875, lr2=0.0028125
+    Job 5613977 completed, received 3/14 ACKs.
+2025-05-21 02:18:44 - [Listener]: Received ACK from job ID: 5613975, seg 11, lr1=0.00421875, lr2=0.0
+    Job 5613975 completed, received 4/14 ACKs.
+2025-05-21 02:31:20 - [Listener]: Received ACK from job ID: 5613980, seg 11, lr1=0.00421875, lr2=0.0035156250000000005
+    Job 5613980 completed, received 5/14 ACKs.
+2025-05-21 02:31:20 - [Listener]: Received ACK from job ID: 5613979, seg 11, lr1=0.00421875, lr2=0.0033750000000000004
+    Job 5613979 completed, received 6/14 ACKs.
+2025-05-21 02:32:38 - [Listener]: Received ACK from job ID: 5613982, seg 11, lr1=0.00421875, lr2=0.0036914062500000002
+    Job 5613982 completed, received 7/14 ACKs.
+2025-05-21 02:32:38 - [Listener]: Received ACK from job ID: 5613981, seg 11, lr1=0.00421875, lr2=0.0036160714285714286
+    Job 5613981 completed, received 8/14 ACKs.
+2025-05-21 02:43:51 - [Listener]: Received ACK from job ID: 5613983, seg 11, lr1=0.00421875, lr2=0.00375
+    Job 5613983 completed, received 9/14 ACKs.
+2025-05-21 02:43:54 - [Listener]: Received ACK from job ID: 5613984, seg 11, lr1=0.00421875, lr2=0.0037968750000000003
+    Job 5613984 completed, received 10/14 ACKs.
+2025-05-21 02:47:36 - [Listener]: Received ACK from job ID: 5613986, seg 11, lr1=0.00421875, lr2=0.0052734375
+    Job 5613986 completed, received 11/14 ACKs.
+2025-05-21 02:47:47 - [Listener]: Received ACK from job ID: 5613985, seg 11, lr1=0.00421875, lr2=0.00421875
+    Job 5613985 completed, received 12/14 ACKs.
+2025-05-21 02:58:05 - [Listener]: Received ACK from job ID: 5613988, seg 11, lr1=0.00421875, lr2=0.0084375
+    Job 5613988 completed, received 13/14 ACKs.
+2025-05-21 02:58:05 - [Listener]: Received ACK from job ID: 5613987, seg 11, lr1=0.00421875, lr2=0.006328125
+    Job 5613987 completed, received 14/14 ACKs.
+2025-05-21 02:58:05 - [Listener]: 14 / 14 ACKs received from jobs (5613978 5613976 5613977 5613975 5613980 5613979 5613982 5613981 5613983 5613984 5613986 5613985 5613988 5613987).
+2025-05-21 02:58:05 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 02:58:30 - [Update]: lr1=0.003796875, lr2_candidates=(0.0 0.0018984375 0.0025312499999999996 0.00284765625 0.0030375000000000003 0.0031640625 0.0032544642857142854 0.003322265625 0.0033749999999999995 0.0034171875 0.003796875 0.0047460937499999994 0.0056953125 0.00759375) for segment 12.
+2025-05-21 02:58:30 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1100-1200/lr2:3.80e-03
+2025-05-21 02:58:30 - [Master]: Segment 11/19 completed.
+
+====================================================================================================
+2025-05-21 02:58:30 - [Master]: Training segment 12 from iteration 1200 to 1300...
+2025-05-21 02:58:30 - [Listener]: Waiting for 14 ACKs...
+Your job 5614889 ("seg12_lr2_0.00e+00") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0.
+Your job 5614890 ("seg12_lr2_1.90e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0018984375.
+Your job 5614891 ("seg12_lr2_2.53e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0025312499999999996.
+Your job 5614892 ("seg12_lr2_2.85e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.00284765625.
+Your job 5614893 ("seg12_lr2_3.04e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0030375000000000003.
+Your job 5614894 ("seg12_lr2_3.16e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0031640625.
+Your job 5614895 ("seg12_lr2_3.25e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0032544642857142854.
+Your job 5614896 ("seg12_lr2_3.32e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.003322265625.
+Your job 5614897 ("seg12_lr2_3.37e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0033749999999999995.
+Your job 5614898 ("seg12_lr2_3.42e-03") has been submitted
+2025-05-21 02:58:30 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0034171875.
+Your job 5614899 ("seg12_lr2_3.80e-03") has been submitted
+2025-05-21 02:58:31 - Launcher: Submitted job with lr1=0.003796875 lr2=0.003796875.
+Your job 5614900 ("seg12_lr2_4.75e-03") has been submitted
+2025-05-21 02:58:31 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0047460937499999994.
+Your job 5614901 ("seg12_lr2_5.70e-03") has been submitted
+2025-05-21 02:58:31 - Launcher: Submitted job with lr1=0.003796875 lr2=0.0056953125.
+Your job 5614902 ("seg12_lr2_7.59e-03") has been submitted
+2025-05-21 02:58:31 - Launcher: Submitted job with lr1=0.003796875 lr2=0.00759375.
+2025-05-21 03:11:42 - [Listener]: Received ACK from job ID: 5614889, seg 12, lr1=0.003796875, lr2=0.0
+    Job 5614889 completed, received 1/14 ACKs.
+2025-05-21 03:11:45 - [Listener]: Received ACK from job ID: 5614890, seg 12, lr1=0.003796875, lr2=0.0018984375
+    Job 5614890 completed, received 2/14 ACKs.
+2025-05-21 03:11:48 - [Listener]: Received ACK from job ID: 5614891, seg 12, lr1=0.003796875, lr2=0.0025312499999999996
+    Job 5614891 completed, received 3/14 ACKs.
+2025-05-21 03:13:48 - [Listener]: Received ACK from job ID: 5614892, seg 12, lr1=0.003796875, lr2=0.00284765625
+    Job 5614892 completed, received 4/14 ACKs.
+2025-05-21 03:24:42 - [Listener]: Received ACK from job ID: 5614895, seg 12, lr1=0.003796875, lr2=0.0032544642857142854
+    Job 5614895 completed, received 5/14 ACKs.
+2025-05-21 03:24:53 - [Listener]: Received ACK from job ID: 5614893, seg 12, lr1=0.003796875, lr2=0.0030375000000000003
+    Job 5614893 completed, received 6/14 ACKs.
+2025-05-21 03:25:04 - [Listener]: Received ACK from job ID: 5614894, seg 12, lr1=0.003796875, lr2=0.0031640625
+    Job 5614894 completed, received 7/14 ACKs.
+2025-05-21 03:27:22 - [Listener]: Received ACK from job ID: 5614896, seg 12, lr1=0.003796875, lr2=0.003322265625
+    Job 5614896 completed, received 8/14 ACKs.
+2025-05-21 03:37:46 - [Listener]: Received ACK from job ID: 5614897, seg 12, lr1=0.003796875, lr2=0.0033749999999999995
+    Job 5614897 completed, received 9/14 ACKs.
+2025-05-21 03:37:57 - [Listener]: Received ACK from job ID: 5614898, seg 12, lr1=0.003796875, lr2=0.0034171875
+    Job 5614898 completed, received 10/14 ACKs.
+2025-05-21 03:40:09 - [Listener]: Received ACK from job ID: 5614900, seg 12, lr1=0.003796875, lr2=0.0047460937499999994
+    Job 5614900 completed, received 11/14 ACKs.
+2025-05-21 03:40:20 - [Listener]: Received ACK from job ID: 5614899, seg 12, lr1=0.003796875, lr2=0.003796875
+    Job 5614899 completed, received 12/14 ACKs.
+2025-05-21 03:51:57 - [Listener]: Received ACK from job ID: 5614902, seg 12, lr1=0.003796875, lr2=0.00759375
+    Job 5614902 completed, received 13/14 ACKs.
+2025-05-21 03:51:57 - [Listener]: Received ACK from job ID: 5614901, seg 12, lr1=0.003796875, lr2=0.0056953125
+    Job 5614901 completed, received 14/14 ACKs.
+2025-05-21 03:51:57 - [Listener]: 14 / 14 ACKs received from jobs (5614889 5614890 5614891 5614892 5614895 5614893 5614894 5614896 5614897 5614898 5614900 5614899 5614902 5614901).
+2025-05-21 03:51:57 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 03:52:19 - [Update]: lr1=0.0034171875, lr2_candidates=(0.0 0.00170859375 0.0022781249999999998 0.002562890625 0.00273375 0.0028476562500000004 0.002929017857142857 0.0029900390625 0.0030375 0.00307546875 0.0034171875 0.0042714843750000005 0.00512578125 0.006834375) for segment 13.
+2025-05-21 03:52:19 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1200-1300/lr2:3.42e-03
+2025-05-21 03:52:19 - [Master]: Segment 12/19 completed.
+
+====================================================================================================
+2025-05-21 03:52:19 - [Master]: Training segment 13 from iteration 1300 to 1400...
+2025-05-21 03:52:19 - [Listener]: Waiting for 14 ACKs...
+Your job 5616215 ("seg13_lr2_0.00e+00") has been submitted
+2025-05-21 03:52:19 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0.
+Your job 5616216 ("seg13_lr2_1.71e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.00170859375.
+Your job 5616217 ("seg13_lr2_2.28e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0022781249999999998.
+Your job 5616218 ("seg13_lr2_2.56e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.002562890625.
+Your job 5616219 ("seg13_lr2_2.73e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.00273375.
+Your job 5616220 ("seg13_lr2_2.85e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0028476562500000004.
+Your job 5616221 ("seg13_lr2_2.93e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.002929017857142857.
+Your job 5616222 ("seg13_lr2_2.99e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0029900390625.
+Your job 5616223 ("seg13_lr2_3.04e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0030375.
+Your job 5616224 ("seg13_lr2_3.08e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.00307546875.
+Your job 5616225 ("seg13_lr2_3.42e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0034171875.
+Your job 5616226 ("seg13_lr2_4.27e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.0042714843750000005.
+Your job 5616227 ("seg13_lr2_5.13e-03") has been submitted
+2025-05-21 03:52:20 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.00512578125.
+Your job 5616228 ("seg13_lr2_6.83e-03") has been submitted
+2025-05-21 03:52:21 - Launcher: Submitted job with lr1=0.0034171875 lr2=0.006834375.
+2025-05-21 04:06:26 - [Listener]: Received ACK from job ID: 5616218, seg 13, lr1=0.0034171875, lr2=0.002562890625
+    Job 5616218 completed, received 1/14 ACKs.
+2025-05-21 04:06:44 - [Listener]: Received ACK from job ID: 5616216, seg 13, lr1=0.0034171875, lr2=0.00170859375
+    Job 5616216 completed, received 2/14 ACKs.
+2025-05-21 04:06:44 - [Listener]: Received ACK from job ID: 5616217, seg 13, lr1=0.0034171875, lr2=0.0022781249999999998
+    Job 5616217 completed, received 3/14 ACKs.
+2025-05-21 04:06:47 - [Listener]: Received ACK from job ID: 5616215, seg 13, lr1=0.0034171875, lr2=0.0
+    Job 5616215 completed, received 4/14 ACKs.
+2025-05-21 04:20:11 - [Listener]: Received ACK from job ID: 5616222, seg 13, lr1=0.0034171875, lr2=0.0029900390625
+    Job 5616222 completed, received 5/14 ACKs.
+2025-05-21 04:20:14 - [Listener]: Received ACK from job ID: 5616221, seg 13, lr1=0.0034171875, lr2=0.002929017857142857
+    Job 5616221 completed, received 6/14 ACKs.
+2025-05-21 04:20:17 - [Listener]: Received ACK from job ID: 5616219, seg 13, lr1=0.0034171875, lr2=0.00273375
+    Job 5616219 completed, received 7/14 ACKs.
+2025-05-21 04:20:28 - [Listener]: Received ACK from job ID: 5616220, seg 13, lr1=0.0034171875, lr2=0.0028476562500000004
+    Job 5616220 completed, received 8/14 ACKs.
+2025-05-21 04:25:58 - [Listener]: Received ACK from job ID: 5616224, seg 13, lr1=0.0034171875, lr2=0.00307546875
+    Job 5616224 completed, received 9/14 ACKs.
+2025-05-21 04:26:01 - [Listener]: Received ACK from job ID: 5616223, seg 13, lr1=0.0034171875, lr2=0.0030375
+    Job 5616223 completed, received 10/14 ACKs.
+2025-05-21 04:34:01 - [Listener]: Received ACK from job ID: 5616228, seg 13, lr1=0.0034171875, lr2=0.006834375
+    Job 5616228 completed, received 11/14 ACKs.
+2025-05-21 04:34:01 - [Listener]: Received ACK from job ID: 5616225, seg 13, lr1=0.0034171875, lr2=0.0034171875
+    Job 5616225 completed, received 12/14 ACKs.
+2025-05-21 04:34:12 - [Listener]: Received ACK from job ID: 5616227, seg 13, lr1=0.0034171875, lr2=0.00512578125
+    Job 5616227 completed, received 13/14 ACKs.
+2025-05-21 04:34:15 - [Listener]: Received ACK from job ID: 5616226, seg 13, lr1=0.0034171875, lr2=0.0042714843750000005
+    Job 5616226 completed, received 14/14 ACKs.
+2025-05-21 04:34:15 - [Listener]: 14 / 14 ACKs received from jobs (5616218 5616216 5616217 5616215 5616222 5616221 5616219 5616220 5616224 5616223 5616228 5616225 5616227 5616226).
+2025-05-21 04:34:15 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 04:34:39 - [Update]: lr1=0.00307546875, lr2_candidates=(0.0 0.001537734375 0.0020503125 0.0023066015625 0.0024603750000000003 0.002562890625 0.0026361160714285714 0.00269103515625 0.00273375 0.002767921875 0.00307546875 0.0038443359375000003 0.004613203125 0.0061509375) for segment 14.
+2025-05-21 04:34:39 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1300-1400/lr2:3.08e-03
+2025-05-21 04:34:39 - [Master]: Segment 13/19 completed.
+
+====================================================================================================
+2025-05-21 04:34:39 - [Master]: Training segment 14 from iteration 1400 to 1500...
+2025-05-21 04:34:39 - [Listener]: Waiting for 14 ACKs...
+Your job 5617108 ("seg14_lr2_0.00e+00") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0.
+Your job 5617109 ("seg14_lr2_1.54e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.001537734375.
+Your job 5617110 ("seg14_lr2_2.05e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0020503125.
+Your job 5617111 ("seg14_lr2_2.31e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0023066015625.
+Your job 5617112 ("seg14_lr2_2.46e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0024603750000000003.
+Your job 5617113 ("seg14_lr2_2.56e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.002562890625.
+Your job 5617115 ("seg14_lr2_2.64e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0026361160714285714.
+Your job 5617116 ("seg14_lr2_2.69e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.00269103515625.
+Your job 5617117 ("seg14_lr2_2.73e-03") has been submitted
+2025-05-21 04:34:39 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.00273375.
+Your job 5617118 ("seg14_lr2_2.77e-03") has been submitted
+2025-05-21 04:34:40 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.002767921875.
+Your job 5617119 ("seg14_lr2_3.08e-03") has been submitted
+2025-05-21 04:34:40 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.00307546875.
+Your job 5617120 ("seg14_lr2_3.84e-03") has been submitted
+2025-05-21 04:34:40 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0038443359375000003.
+Your job 5617121 ("seg14_lr2_4.61e-03") has been submitted
+2025-05-21 04:34:40 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.004613203125.
+Your job 5617122 ("seg14_lr2_6.15e-03") has been submitted
+2025-05-21 04:34:40 - Launcher: Submitted job with lr1=0.00307546875 lr2=0.0061509375.
+2025-05-21 04:48:39 - [Listener]: Received ACK from job ID: 5617108, seg 14, lr1=0.00307546875, lr2=0.0
+    Job 5617108 completed, received 1/14 ACKs.
+2025-05-21 04:48:45 - [Listener]: Received ACK from job ID: 5617111, seg 14, lr1=0.00307546875, lr2=0.0023066015625
+    Job 5617111 completed, received 2/14 ACKs.
+2025-05-21 04:48:51 - [Listener]: Received ACK from job ID: 5617109, seg 14, lr1=0.00307546875, lr2=0.001537734375
+    Job 5617109 completed, received 3/14 ACKs.
+2025-05-21 04:48:51 - [Listener]: Received ACK from job ID: 5617110, seg 14, lr1=0.00307546875, lr2=0.0020503125
+    Job 5617110 completed, received 4/14 ACKs.
+2025-05-21 04:53:57 - [Listener]: Received ACK from job ID: 5617112, seg 14, lr1=0.00307546875, lr2=0.0024603750000000003
+    Job 5617112 completed, received 5/14 ACKs.
+2025-05-21 04:54:15 - [Listener]: Received ACK from job ID: 5617113, seg 14, lr1=0.00307546875, lr2=0.002562890625
+    Job 5617113 completed, received 6/14 ACKs.
+2025-05-21 05:04:09 - [Listener]: Received ACK from job ID: 5617116, seg 14, lr1=0.00307546875, lr2=0.00269103515625
+    Job 5617116 completed, received 7/14 ACKs.
+2025-05-21 05:04:09 - [Listener]: Received ACK from job ID: 5617117, seg 14, lr1=0.00307546875, lr2=0.00273375
+    Job 5617117 completed, received 8/14 ACKs.
+2025-05-21 05:04:20 - [Listener]: Received ACK from job ID: 5617115, seg 14, lr1=0.00307546875, lr2=0.0026361160714285714
+    Job 5617115 completed, received 9/14 ACKs.
+2025-05-21 05:04:20 - [Listener]: Received ACK from job ID: 5617118, seg 14, lr1=0.00307546875, lr2=0.002767921875
+    Job 5617118 completed, received 10/14 ACKs.
+2025-05-21 05:08:56 - [Listener]: Received ACK from job ID: 5617120, seg 14, lr1=0.00307546875, lr2=0.0038443359375000003
+    Job 5617120 completed, received 11/14 ACKs.
+2025-05-21 05:09:02 - [Listener]: Received ACK from job ID: 5617119, seg 14, lr1=0.00307546875, lr2=0.00307546875
+    Job 5617119 completed, received 12/14 ACKs.
+2025-05-21 05:18:57 - [Listener]: Received ACK from job ID: 5617121, seg 14, lr1=0.00307546875, lr2=0.004613203125
+    Job 5617121 completed, received 13/14 ACKs.
+2025-05-21 05:18:57 - [Listener]: Received ACK from job ID: 5617122, seg 14, lr1=0.00307546875, lr2=0.0061509375
+    Job 5617122 completed, received 14/14 ACKs.
+2025-05-21 05:18:57 - [Listener]: 14 / 14 ACKs received from jobs (5617108 5617111 5617109 5617110 5617112 5617113 5617116 5617117 5617115 5617118 5617120 5617119 5617121 5617122).
+2025-05-21 05:18:57 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 05:19:23 - [Update]: lr1=0.0024603750000000003, lr2_candidates=(0.0 0.0012301875000000002 0.0016402500000000002 0.0018452812500000001 0.0019683000000000005 0.0020503125000000005 0.0021088928571428574 0.0021528281250000002 0.002187 0.0022143375000000004 0.0024603750000000003 0.0030754687500000005 0.0036905625000000003 0.004920750000000001) for segment 15.
+2025-05-21 05:19:23 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1400-1500/lr2:2.46e-03
+2025-05-21 05:19:24 - [Master]: Segment 14/19 completed.
+
+====================================================================================================
+2025-05-21 05:19:24 - [Master]: Training segment 15 from iteration 1500 to 1600...
+2025-05-21 05:19:24 - [Listener]: Waiting for 14 ACKs...
+Your job 5617970 ("seg15_lr2_0.00e+00") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0.
+Your job 5617971 ("seg15_lr2_1.23e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0012301875000000002.
+Your job 5617972 ("seg15_lr2_1.64e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0016402500000000002.
+Your job 5617973 ("seg15_lr2_1.85e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0018452812500000001.
+Your job 5617974 ("seg15_lr2_1.97e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0019683000000000005.
+Your job 5617975 ("seg15_lr2_2.05e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0020503125000000005.
+Your job 5617976 ("seg15_lr2_2.11e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0021088928571428574.
+Your job 5617977 ("seg15_lr2_2.15e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0021528281250000002.
+Your job 5617978 ("seg15_lr2_2.19e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.002187.
+Your job 5617979 ("seg15_lr2_2.21e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0022143375000000004.
+Your job 5617980 ("seg15_lr2_2.46e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0024603750000000003.
+Your job 5617981 ("seg15_lr2_3.08e-03") has been submitted
+2025-05-21 05:19:24 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0030754687500000005.
+Your job 5617982 ("seg15_lr2_3.69e-03") has been submitted
+2025-05-21 05:19:25 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.0036905625000000003.
+Your job 5617983 ("seg15_lr2_4.92e-03") has been submitted
+2025-05-21 05:19:25 - Launcher: Submitted job with lr1=0.0024603750000000003 lr2=0.004920750000000001.
+2025-05-21 05:33:42 - [Listener]: Received ACK from job ID: 5617973, seg 15, lr1=0.0024603750000000003, lr2=0.0018452812500000001
+    Job 5617973 completed, received 1/14 ACKs.
+2025-05-21 05:34:12 - [Listener]: Received ACK from job ID: 5617971, seg 15, lr1=0.0024603750000000003, lr2=0.0012301875000000002
+    Job 5617971 completed, received 2/14 ACKs.
+2025-05-21 05:34:12 - [Listener]: Received ACK from job ID: 5617972, seg 15, lr1=0.0024603750000000003, lr2=0.0016402500000000002
+    Job 5617972 completed, received 3/14 ACKs.
+2025-05-21 05:34:36 - [Listener]: Received ACK from job ID: 5617970, seg 15, lr1=0.0024603750000000003, lr2=0.0
+    Job 5617970 completed, received 4/14 ACKs.
+2025-05-21 05:47:12 - [Listener]: Received ACK from job ID: 5617977, seg 15, lr1=0.0024603750000000003, lr2=0.0021528281250000002
+    Job 5617977 completed, received 5/14 ACKs.
+2025-05-21 05:47:15 - [Listener]: Received ACK from job ID: 5617976, seg 15, lr1=0.0024603750000000003, lr2=0.0021088928571428574
+    Job 5617976 completed, received 6/14 ACKs.
+2025-05-21 05:47:18 - [Listener]: Received ACK from job ID: 5617974, seg 15, lr1=0.0024603750000000003, lr2=0.0019683000000000005
+    Job 5617974 completed, received 7/14 ACKs.
+2025-05-21 05:47:21 - [Listener]: Received ACK from job ID: 5617975, seg 15, lr1=0.0024603750000000003, lr2=0.0020503125000000005
+    Job 5617975 completed, received 8/14 ACKs.
+2025-05-21 05:59:39 - [Listener]: Received ACK from job ID: 5617981, seg 15, lr1=0.0024603750000000003, lr2=0.0030754687500000005
+    Job 5617981 completed, received 9/14 ACKs.
+2025-05-21 05:59:42 - [Listener]: Received ACK from job ID: 5617979, seg 15, lr1=0.0024603750000000003, lr2=0.0022143375000000004
+    Job 5617979 completed, received 10/14 ACKs.
+2025-05-21 05:59:42 - [Listener]: Received ACK from job ID: 5617980, seg 15, lr1=0.0024603750000000003, lr2=0.0024603750000000003
+    Job 5617980 completed, received 11/14 ACKs.
+2025-05-21 06:00:00 - [Listener]: Received ACK from job ID: 5617978, seg 15, lr1=0.0024603750000000003, lr2=0.002187
+    Job 5617978 completed, received 12/14 ACKs.
+2025-05-21 06:14:37 - [Listener]: Received ACK from job ID: 5617983, seg 15, lr1=0.0024603750000000003, lr2=0.004920750000000001
+    Job 5617983 completed, received 13/14 ACKs.
+2025-05-21 06:14:40 - [Listener]: Received ACK from job ID: 5617982, seg 15, lr1=0.0024603750000000003, lr2=0.0036905625000000003
+    Job 5617982 completed, received 14/14 ACKs.
+2025-05-21 06:14:40 - [Listener]: 14 / 14 ACKs received from jobs (5617973 5617971 5617972 5617970 5617977 5617976 5617974 5617975 5617981 5617979 5617980 5617978 5617983 5617982).
+2025-05-21 06:14:40 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 06:15:04 - [Update]: lr1=0.0022143375000000004, lr2_candidates=(0.0 0.0011071687500000002 0.0014762250000000003 0.0016607531250000004 0.0017714700000000005 0.0018452812500000004 0.0018980035714285717 0.0019375453125000004 0.0019683 0.0019929037500000003 0.0022143375000000004 0.0027679218750000004 0.003321506250000001 0.004428675000000001) for segment 16.
+2025-05-21 06:15:04 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1500-1600/lr2:2.21e-03
+2025-05-21 06:15:04 - [Master]: Segment 15/19 completed.
+
+====================================================================================================
+2025-05-21 06:15:04 - [Master]: Training segment 16 from iteration 1600 to 1700...
+2025-05-21 06:15:04 - [Listener]: Waiting for 14 ACKs...
+Your job 5618842 ("seg16_lr2_0.00e+00") has been submitted
+2025-05-21 06:15:05 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0.
+Your job 5618843 ("seg16_lr2_1.11e-03") has been submitted
+2025-05-21 06:15:05 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0011071687500000002.
+Your job 5618844 ("seg16_lr2_1.48e-03") has been submitted
+2025-05-21 06:15:05 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0014762250000000003.
+Your job 5618845 ("seg16_lr2_1.66e-03") has been submitted
+2025-05-21 06:15:05 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0016607531250000004.
+Your job 5618847 ("seg16_lr2_1.77e-03") has been submitted
+2025-05-21 06:15:05 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0017714700000000005.
+Your job 5618848 ("seg16_lr2_1.85e-03") has been submitted
+2025-05-21 06:15:06 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0018452812500000004.
+Your job 5618849 ("seg16_lr2_1.90e-03") has been submitted
+2025-05-21 06:15:06 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0018980035714285717.
+Your job 5618850 ("seg16_lr2_1.94e-03") has been submitted
+2025-05-21 06:15:06 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0019375453125000004.
+Your job 5618851 ("seg16_lr2_1.97e-03") has been submitted
+2025-05-21 06:15:06 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0019683.
+Your job 5618852 ("seg16_lr2_1.99e-03") has been submitted
+2025-05-21 06:15:06 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0019929037500000003.
+Your job 5618853 ("seg16_lr2_2.21e-03") has been submitted
+2025-05-21 06:15:06 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0022143375000000004.
+Your job 5618854 ("seg16_lr2_2.77e-03") has been submitted
+2025-05-21 06:15:07 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.0027679218750000004.
+Your job 5618855 ("seg16_lr2_3.32e-03") has been submitted
+2025-05-21 06:15:07 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.003321506250000001.
+Your job 5618856 ("seg16_lr2_4.43e-03") has been submitted
+2025-05-21 06:15:07 - Launcher: Submitted job with lr1=0.0022143375000000004 lr2=0.004428675000000001.
+2025-05-21 06:28:23 - [Listener]: Received ACK from job ID: 5618845, seg 16, lr1=0.0022143375000000004, lr2=0.0016607531250000004
+    Job 5618845 completed, received 1/14 ACKs.
+2025-05-21 06:29:05 - [Listener]: Received ACK from job ID: 5618842, seg 16, lr1=0.0022143375000000004, lr2=0.0
+    Job 5618842 completed, received 2/14 ACKs.
+2025-05-21 06:29:11 - [Listener]: Received ACK from job ID: 5618843, seg 16, lr1=0.0022143375000000004, lr2=0.0011071687500000002
+    Job 5618843 completed, received 3/14 ACKs.
+2025-05-21 06:29:17 - [Listener]: Received ACK from job ID: 5618844, seg 16, lr1=0.0022143375000000004, lr2=0.0014762250000000003
+    Job 5618844 completed, received 4/14 ACKs.
+2025-05-21 06:41:47 - [Listener]: Received ACK from job ID: 5618847, seg 16, lr1=0.0022143375000000004, lr2=0.0017714700000000005
+    Job 5618847 completed, received 5/14 ACKs.
+2025-05-21 06:43:11 - [Listener]: Received ACK from job ID: 5618850, seg 16, lr1=0.0022143375000000004, lr2=0.0019375453125000004
+    Job 5618850 completed, received 6/14 ACKs.
+2025-05-21 06:43:11 - [Listener]: Received ACK from job ID: 5618848, seg 16, lr1=0.0022143375000000004, lr2=0.0018452812500000004
+    Job 5618848 completed, received 7/14 ACKs.
+2025-05-21 06:43:14 - [Listener]: Received ACK from job ID: 5618849, seg 16, lr1=0.0022143375000000004, lr2=0.0018980035714285717
+    Job 5618849 completed, received 8/14 ACKs.
+2025-05-21 06:55:33 - [Listener]: Received ACK from job ID: 5618851, seg 16, lr1=0.0022143375000000004, lr2=0.0019683
+    Job 5618851 completed, received 9/14 ACKs.
+2025-05-21 06:57:33 - [Listener]: Received ACK from job ID: 5618852, seg 16, lr1=0.0022143375000000004, lr2=0.0019929037500000003
+    Job 5618852 completed, received 10/14 ACKs.
+2025-05-21 06:57:57 - [Listener]: Received ACK from job ID: 5618854, seg 16, lr1=0.0022143375000000004, lr2=0.0027679218750000004
+    Job 5618854 completed, received 11/14 ACKs.
+2025-05-21 06:58:08 - [Listener]: Received ACK from job ID: 5618853, seg 16, lr1=0.0022143375000000004, lr2=0.0022143375000000004
+    Job 5618853 completed, received 12/14 ACKs.
+2025-05-21 07:09:20 - [Listener]: Received ACK from job ID: 5618855, seg 16, lr1=0.0022143375000000004, lr2=0.003321506250000001
+    Job 5618855 completed, received 13/14 ACKs.
+2025-05-21 07:11:20 - [Listener]: Received ACK from job ID: 5618856, seg 16, lr1=0.0022143375000000004, lr2=0.004428675000000001
+    Job 5618856 completed, received 14/14 ACKs.
+2025-05-21 07:11:20 - [Listener]: 14 / 14 ACKs received from jobs (5618845 5618842 5618843 5618844 5618847 5618850 5618848 5618849 5618851 5618852 5618854 5618853 5618855 5618856).
+2025-05-21 07:11:20 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 07:11:49 - [Update]: lr1=0.0014762250000000005, lr2_candidates=(0.0 0.0007381125000000002 0.0009841500000000003 0.0011071687500000004 0.0011809800000000005 0.0012301875000000004 0.0012653357142857146 0.0012916968750000004 0.0013122000000000003 0.0013286025000000005 0.0014762250000000005 0.0018452812500000006 0.002214337500000001 0.002952450000000001) for segment 17.
+2025-05-21 07:11:49 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1600-1700/lr2:1.48e-03
+2025-05-21 07:11:49 - [Master]: Segment 16/19 completed.
+
+====================================================================================================
+2025-05-21 07:11:49 - [Master]: Training segment 17 from iteration 1700 to 1800...
+2025-05-21 07:11:49 - [Listener]: Waiting for 14 ACKs...
+Your job 5619807 ("seg17_lr2_0.00e+00") has been submitted
+2025-05-21 07:11:49 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0.
+Your job 5619808 ("seg17_lr2_7.38e-04") has been submitted
+2025-05-21 07:11:49 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0007381125000000002.
+Your job 5619809 ("seg17_lr2_9.84e-04") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0009841500000000003.
+Your job 5619810 ("seg17_lr2_1.11e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0011071687500000004.
+Your job 5619811 ("seg17_lr2_1.18e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0011809800000000005.
+Your job 5619812 ("seg17_lr2_1.23e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0012301875000000004.
+Your job 5619813 ("seg17_lr2_1.27e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0012653357142857146.
+Your job 5619814 ("seg17_lr2_1.29e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0012916968750000004.
+Your job 5619815 ("seg17_lr2_1.31e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0013122000000000003.
+Your job 5619816 ("seg17_lr2_1.33e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0013286025000000005.
+Your job 5619817 ("seg17_lr2_1.48e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0014762250000000005.
+Your job 5619818 ("seg17_lr2_1.85e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.0018452812500000006.
+Your job 5619819 ("seg17_lr2_2.21e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.002214337500000001.
+Your job 5619820 ("seg17_lr2_2.95e-03") has been submitted
+2025-05-21 07:11:50 - Launcher: Submitted job with lr1=0.0014762250000000005 lr2=0.002952450000000001.
+2025-05-21 07:24:55 - [Listener]: Received ACK from job ID: 5619809, seg 17, lr1=0.0014762250000000005, lr2=0.0009841500000000003
+    Job 5619809 completed, received 1/14 ACKs.
+2025-05-21 07:24:58 - [Listener]: Received ACK from job ID: 5619808, seg 17, lr1=0.0014762250000000005, lr2=0.0007381125000000002
+    Job 5619808 completed, received 2/14 ACKs.
+2025-05-21 07:25:01 - [Listener]: Received ACK from job ID: 5619807, seg 17, lr1=0.0014762250000000005, lr2=0.0
+    Job 5619807 completed, received 3/14 ACKs.
+2025-05-21 07:25:12 - [Listener]: Received ACK from job ID: 5619810, seg 17, lr1=0.0014762250000000005, lr2=0.0011071687500000004
+    Job 5619810 completed, received 4/14 ACKs.
+2025-05-21 07:38:01 - [Listener]: Received ACK from job ID: 5619813, seg 17, lr1=0.0014762250000000005, lr2=0.0012653357142857146
+    Job 5619813 completed, received 5/14 ACKs.
+2025-05-21 07:38:07 - [Listener]: Received ACK from job ID: 5619814, seg 17, lr1=0.0014762250000000005, lr2=0.0012916968750000004
+    Job 5619814 completed, received 6/14 ACKs.
+2025-05-21 07:38:18 - [Listener]: Received ACK from job ID: 5619811, seg 17, lr1=0.0014762250000000005, lr2=0.0011809800000000005
+    Job 5619811 completed, received 7/14 ACKs.
+2025-05-21 07:38:18 - [Listener]: Received ACK from job ID: 5619812, seg 17, lr1=0.0014762250000000005, lr2=0.0012301875000000004
+    Job 5619812 completed, received 8/14 ACKs.
+2025-05-21 07:51:00 - [Listener]: Received ACK from job ID: 5619818, seg 17, lr1=0.0014762250000000005, lr2=0.0018452812500000006
+    Job 5619818 completed, received 9/14 ACKs.
+2025-05-21 07:51:18 - [Listener]: Received ACK from job ID: 5619817, seg 17, lr1=0.0014762250000000005, lr2=0.0014762250000000005
+    Job 5619817 completed, received 10/14 ACKs.
+2025-05-21 07:51:24 - [Listener]: Received ACK from job ID: 5619816, seg 17, lr1=0.0014762250000000005, lr2=0.0013286025000000005
+    Job 5619816 completed, received 11/14 ACKs.
+2025-05-21 07:51:35 - [Listener]: Received ACK from job ID: 5619815, seg 17, lr1=0.0014762250000000005, lr2=0.0013122000000000003
+    Job 5619815 completed, received 12/14 ACKs.
+2025-05-21 08:03:47 - [Listener]: Received ACK from job ID: 5619820, seg 17, lr1=0.0014762250000000005, lr2=0.002952450000000001
+    Job 5619820 completed, received 13/14 ACKs.
+2025-05-21 08:03:47 - [Listener]: Received ACK from job ID: 5619819, seg 17, lr1=0.0014762250000000005, lr2=0.002214337500000001
+    Job 5619819 completed, received 14/14 ACKs.
+2025-05-21 08:03:47 - [Listener]: 14 / 14 ACKs received from jobs (5619809 5619808 5619807 5619810 5619813 5619814 5619811 5619812 5619818 5619817 5619816 5619815 5619820 5619819).
+2025-05-21 08:03:47 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 08:04:13 - [Update]: lr1=0.0013122000000000003, lr2_candidates=(0.0 0.0006561000000000002 0.0008748000000000002 0.0009841500000000003 0.0010497600000000003 0.0010935000000000003 0.0011247428571428573 0.0011481750000000004 0.0011664000000000002 0.0011809800000000003 0.0013122000000000003 0.0016402500000000004 0.0019683000000000005 0.0026244000000000007) for segment 18.
+2025-05-21 08:04:13 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1700-1800/lr2:1.31e-03
+2025-05-21 08:04:13 - [Master]: Segment 17/19 completed.
+
+====================================================================================================
+2025-05-21 08:04:13 - [Master]: Training segment 18 from iteration 1800 to 1900...
+2025-05-21 08:04:13 - [Listener]: Waiting for 14 ACKs...
+Your job 5621038 ("seg18_lr2_0.00e+00") has been submitted
+2025-05-21 08:04:13 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0.
+Your job 5621039 ("seg18_lr2_6.56e-04") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0006561000000000002.
+Your job 5621040 ("seg18_lr2_8.75e-04") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0008748000000000002.
+Your job 5621041 ("seg18_lr2_9.84e-04") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0009841500000000003.
+Your job 5621042 ("seg18_lr2_1.05e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0010497600000000003.
+Your job 5621043 ("seg18_lr2_1.09e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0010935000000000003.
+Your job 5621044 ("seg18_lr2_1.12e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0011247428571428573.
+Your job 5621045 ("seg18_lr2_1.15e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0011481750000000004.
+Your job 5621046 ("seg18_lr2_1.17e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0011664000000000002.
+Your job 5621047 ("seg18_lr2_1.18e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0011809800000000003.
+Your job 5621048 ("seg18_lr2_1.31e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0013122000000000003.
+Your job 5621049 ("seg18_lr2_1.64e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0016402500000000004.
+Your job 5621050 ("seg18_lr2_1.97e-03") has been submitted
+2025-05-21 08:04:14 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0019683000000000005.
+Your job 5621051 ("seg18_lr2_2.62e-03") has been submitted
+2025-05-21 08:04:15 - Launcher: Submitted job with lr1=0.0013122000000000003 lr2=0.0026244000000000007.
+2025-05-21 08:16:50 - [Listener]: Received ACK from job ID: 5621041, seg 18, lr1=0.0013122000000000003, lr2=0.0009841500000000003
+    Job 5621041 completed, received 1/14 ACKs.
+2025-05-21 08:16:56 - [Listener]: Received ACK from job ID: 5621038, seg 18, lr1=0.0013122000000000003, lr2=0.0
+    Job 5621038 completed, received 2/14 ACKs.
+2025-05-21 08:17:14 - [Listener]: Received ACK from job ID: 5621039, seg 18, lr1=0.0013122000000000003, lr2=0.0006561000000000002
+    Job 5621039 completed, received 3/14 ACKs.
+2025-05-21 08:17:14 - [Listener]: Received ACK from job ID: 5621040, seg 18, lr1=0.0013122000000000003, lr2=0.0008748000000000002
+    Job 5621040 completed, received 4/14 ACKs.
+2025-05-21 08:29:44 - [Listener]: Received ACK from job ID: 5621043, seg 18, lr1=0.0013122000000000003, lr2=0.0010935000000000003
+    Job 5621043 completed, received 5/14 ACKs.
+2025-05-21 08:29:47 - [Listener]: Received ACK from job ID: 5621045, seg 18, lr1=0.0013122000000000003, lr2=0.0011481750000000004
+    Job 5621045 completed, received 6/14 ACKs.
+2025-05-21 08:29:47 - [Listener]: Received ACK from job ID: 5621042, seg 18, lr1=0.0013122000000000003, lr2=0.0010497600000000003
+    Job 5621042 completed, received 7/14 ACKs.
+2025-05-21 08:30:05 - [Listener]: Received ACK from job ID: 5621044, seg 18, lr1=0.0013122000000000003, lr2=0.0011247428571428573
+    Job 5621044 completed, received 8/14 ACKs.
+2025-05-21 08:42:29 - [Listener]: Received ACK from job ID: 5621049, seg 18, lr1=0.0013122000000000003, lr2=0.0016402500000000004
+    Job 5621049 completed, received 9/14 ACKs.
+2025-05-21 08:42:40 - [Listener]: Received ACK from job ID: 5621048, seg 18, lr1=0.0013122000000000003, lr2=0.0013122000000000003
+    Job 5621048 completed, received 10/14 ACKs.
+2025-05-21 08:42:40 - [Listener]: Received ACK from job ID: 5621047, seg 18, lr1=0.0013122000000000003, lr2=0.0011809800000000003
+    Job 5621047 completed, received 11/14 ACKs.
+2025-05-21 08:42:43 - [Listener]: Received ACK from job ID: 5621046, seg 18, lr1=0.0013122000000000003, lr2=0.0011664000000000002
+    Job 5621046 completed, received 12/14 ACKs.
+2025-05-21 08:49:25 - [Listener]: Received ACK from job ID: 5621051, seg 18, lr1=0.0013122000000000003, lr2=0.0026244000000000007
+    Job 5621051 completed, received 13/14 ACKs.
+2025-05-21 08:49:36 - [Listener]: Received ACK from job ID: 5621050, seg 18, lr1=0.0013122000000000003, lr2=0.0019683000000000005
+    Job 5621050 completed, received 14/14 ACKs.
+2025-05-21 08:49:36 - [Listener]: 14 / 14 ACKs received from jobs (5621041 5621038 5621039 5621040 5621043 5621045 5621042 5621044 5621049 5621048 5621047 5621046 5621051 5621050).
+2025-05-21 08:49:36 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 08:50:05 - [Update]: lr1=0.0006561000000000002, lr2_candidates=(0.0 0.0003280500000000001 0.0004374000000000001 0.0004920750000000001 0.0005248800000000001 0.0005467500000000001 0.0005623714285714287 0.0005740875000000002 0.0005832000000000001 0.0005904900000000002 0.0006561000000000002 0.0008201250000000002 0.0009841500000000003 0.0013122000000000003) for segment 19.
+2025-05-21 08:50:05 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1800-1900/lr2:6.56e-04
+2025-05-21 08:50:05 - [Master]: Segment 18/19 completed.
+
+====================================================================================================
+2025-05-21 08:50:05 - [Master]: Training segment 19 from iteration 1900 to 2000...
+2025-05-21 08:50:05 - [Listener]: Waiting for 14 ACKs...
+Your job 5621303 ("seg19_lr2_0.00e+00") has been submitted
+2025-05-21 08:50:05 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0.
+Your job 5621304 ("seg19_lr2_3.28e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0003280500000000001.
+Your job 5621305 ("seg19_lr2_4.37e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0004374000000000001.
+Your job 5621306 ("seg19_lr2_4.92e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0004920750000000001.
+Your job 5621307 ("seg19_lr2_5.25e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0005248800000000001.
+Your job 5621308 ("seg19_lr2_5.47e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0005467500000000001.
+Your job 5621309 ("seg19_lr2_5.62e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0005623714285714287.
+Your job 5621310 ("seg19_lr2_5.74e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0005740875000000002.
+Your job 5621311 ("seg19_lr2_5.83e-04") has been submitted
+2025-05-21 08:50:06 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0005832000000000001.
+Your job 5621312 ("seg19_lr2_5.90e-04") has been submitted
+2025-05-21 08:50:07 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0005904900000000002.
+Your job 5621313 ("seg19_lr2_6.56e-04") has been submitted
+2025-05-21 08:50:07 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0006561000000000002.
+Your job 5621314 ("seg19_lr2_8.20e-04") has been submitted
+2025-05-21 08:50:07 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0008201250000000002.
+Your job 5621315 ("seg19_lr2_9.84e-04") has been submitted
+2025-05-21 08:50:07 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0009841500000000003.
+Your job 5621316 ("seg19_lr2_1.31e-03") has been submitted
+2025-05-21 08:50:07 - Launcher: Submitted job with lr1=0.0006561000000000002 lr2=0.0013122000000000003.
+2025-05-21 09:03:00 - [Listener]: Received ACK from job ID: 5621306, seg 19, lr1=0.0006561000000000002, lr2=0.0004920750000000001
+    Job 5621306 completed, received 1/14 ACKs.
+2025-05-21 09:03:18 - [Listener]: Received ACK from job ID: 5621305, seg 19, lr1=0.0006561000000000002, lr2=0.0004374000000000001
+    Job 5621305 completed, received 2/14 ACKs.
+2025-05-21 09:03:21 - [Listener]: Received ACK from job ID: 5621303, seg 19, lr1=0.0006561000000000002, lr2=0.0
+    Job 5621303 completed, received 3/14 ACKs.
+2025-05-21 09:03:32 - [Listener]: Received ACK from job ID: 5621304, seg 19, lr1=0.0006561000000000002, lr2=0.0003280500000000001
+    Job 5621304 completed, received 4/14 ACKs.
+2025-05-21 09:16:08 - [Listener]: Received ACK from job ID: 5621309, seg 19, lr1=0.0006561000000000002, lr2=0.0005623714285714287
+    Job 5621309 completed, received 5/14 ACKs.
+2025-05-21 09:16:14 - [Listener]: Received ACK from job ID: 5621308, seg 19, lr1=0.0006561000000000002, lr2=0.0005467500000000001
+    Job 5621308 completed, received 6/14 ACKs.
+2025-05-21 09:16:17 - [Listener]: Received ACK from job ID: 5621307, seg 19, lr1=0.0006561000000000002, lr2=0.0005248800000000001
+    Job 5621307 completed, received 7/14 ACKs.
+2025-05-21 09:16:23 - [Listener]: Received ACK from job ID: 5621310, seg 19, lr1=0.0006561000000000002, lr2=0.0005740875000000002
+    Job 5621310 completed, received 8/14 ACKs.
+2025-05-21 09:28:05 - [Listener]: Received ACK from job ID: 5621315, seg 19, lr1=0.0006561000000000002, lr2=0.0009841500000000003
+    Job 5621315 completed, received 9/14 ACKs.
+2025-05-21 09:28:16 - [Listener]: Received ACK from job ID: 5621316, seg 19, lr1=0.0006561000000000002, lr2=0.0013122000000000003
+    Job 5621316 completed, received 10/14 ACKs.
+2025-05-21 09:28:19 - [Listener]: Received ACK from job ID: 5621311, seg 19, lr1=0.0006561000000000002, lr2=0.0005832000000000001
+    Job 5621311 completed, received 11/14 ACKs.
+2025-05-21 09:28:25 - [Listener]: Received ACK from job ID: 5621312, seg 19, lr1=0.0006561000000000002, lr2=0.0005904900000000002
+    Job 5621312 completed, received 12/14 ACKs.
+2025-05-21 09:28:25 - [Listener]: Received ACK from job ID: 5621314, seg 19, lr1=0.0006561000000000002, lr2=0.0008201250000000002
+    Job 5621314 completed, received 13/14 ACKs.
+2025-05-21 09:28:49 - [Listener]: Received ACK from job ID: 5621313, seg 19, lr1=0.0006561000000000002, lr2=0.0006561000000000002
+    Job 5621313 completed, received 14/14 ACKs.
+2025-05-21 09:28:49 - [Listener]: 14 / 14 ACKs received from jobs (5621306 5621305 5621303 5621304 5621309 5621308 5621307 5621310 5621315 5621316 5621311 5621312 5621314 5621313).
+2025-05-21 09:28:49 - [Update]: computing lr1 and lr2_candidates...
+2025-05-21 09:29:16 - [Update]: lr1=0, lr2_candidates=(0 0.00001 0.0001 0.001 0.01 0.1 1.0) for segment 20.
+2025-05-21 09:29:16 - [Master]: cleaning checkpoints other than /projectnb/aclab/alee12/trainit3/trainit_project/trainit/scheduler_outputs/2025-05-20/seg20_eps0.24_fa6384/checkpoint/1900-2000/lr2:0.00e+00
+2025-05-21 09:29:16 - [Master]: Segment 19/19 completed.
+
+2025-05-21 09:29:16 - [Master]: Summarizing the experiment...

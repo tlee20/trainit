@@ -1,0 +1,24 @@
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=19 sec). Create a new API with an integer timeout larger than 19, e.g., `api = wandb.Api(timeout=29)` to increase the graphql timeout.
+wandb: Currently logged in as: tony-lee35711 (optimizedlearning) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /projectnb/aclab/alee12/trainit3/trainit_project/trainit/wandb/run-20250521_092918-6ebea8r1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run seg20_eps0.24_fa6384
+wandb: ⭐️ View project at https://wandb.ai/optimizedlearning/test3
+wandb: 🚀 View run at https://wandb.ai/optimizedlearning/test3/runs/6ebea8r1
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:    accuracy ▁▁▂▂▃▄▃▃▃▄▄▄▅▅▅▅▅▆▆▅▇▇▇▇▇▇▇▇▇▆▇▇███▇▇▇▇█
+wandb:        loss █▆▆▆▅▅▅▄▃▃▃▃▃▂▃▂▂▂▂▂▂▂▂▁▂▁▂▁▂▁▁▁▂▁▁▁▁▁▁▁
+wandb: lr/schedule ▂▃▃▅▅▆▆▇▇▇██▇▇▇▇▇▇▇▇▇▇▆▆▆▆▆▅▅▅▄▄▄▃▃▂▂▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:    accuracy 0.46211
+wandb:        loss 3.13101
+wandb: lr/schedule 0
+wandb: 
+wandb: 🚀 View run seg20_eps0.24_fa6384 at: https://wandb.ai/optimizedlearning/test3/runs/6ebea8r1
+wandb: ⭐️ View project at: https://wandb.ai/optimizedlearning/test3
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250521_092918-6ebea8r1/logs
